@@ -30,7 +30,7 @@ Includes text: yes
 Genre: news fiction nonfiction bible government
 Lemmas: manual native
 UPOS: manual native
-XPOS: not available
+XPOS: manual native
 Features: manual native
 Relations: manual native
 Contributors: Yılandiloğlu, Enes
