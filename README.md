@@ -7,7 +7,8 @@ An Ottoman Turkish dependency treebank annotated in UD style. Created by Enes YÄ
 
 This project comprises 111 sentences that are firstly automaticaly annotated via machamp (Van der Goot et al., 2021)
 and then manually corrected in a systematic way. Randomly shuffled sentences were written between 14th to 20th century in various genres
-such as fiction, news, article, registry record, and religious preach.
+such as fiction, news, article, registry record, and religious preach. Unfortunately, for this version, the genres can not be told apart by sentence ids. The order of the sentences is chronology based rather than genre based, the earliest written sentence is at the top.
+In this treebank, scholarly used [Ottoman Turkish transcription alphabet](https://en.wikipedia.org/wiki/Ottoman_Turkish_alphabet) is used.
 
 
 # Acknowledgments
