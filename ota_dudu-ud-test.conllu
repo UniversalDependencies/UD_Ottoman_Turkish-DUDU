@@ -5,7 +5,7 @@
 3	yigitleri	yiğit	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 4	dirse	dirse	PROPN	_	Case=Nom|Number=Sing|Person=3	6	flat	_	_
 5	ḫânı	ḫân	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
-6	ḳarşuladılar	karşıla	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	conj	_	_
+6	ḳarşuladılar	karşıla	VERB	_  Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	conj	_	_
 7	getürüp	getir	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Conv	10	advcl	_	_
 8	ḳara	kara	ADJ	Adj	_	9	amod	_	_
 9	otaġa	otaġ	PROPN	_	Case=Dat|Number=Sing|Person=3	10	iobj	_	_
