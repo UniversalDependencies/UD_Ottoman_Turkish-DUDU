@@ -6,7 +6,7 @@ An Ottoman Turkish dependency treebank annotated in UD style. Created by Enes YÄ
 # Introduction
 
 This project comprises 111 sentences that are automaticaly annotated via machamp (Van der Goot et al., 2021)
-and then manually rectified in a systematic way. Sentences were from 14th to 20th century from various genres
+and then manually rectified in a systematic way. Randomly shuffled sentences were written between 14th to 20th century in various genres
 such as fiction, news, article, registry record, and religious preach.
 
 
