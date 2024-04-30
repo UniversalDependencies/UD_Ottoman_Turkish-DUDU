@@ -245,10 +245,10 @@
 5	fî’l-ḥâl	fî’l-ḥâl	ADV	_	_	7	advmod	_	_
 6	irtiḥâl	irtiḥâl	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound	_	_
 7	idüp	it	ADV	_	_	14	advcl	_	_
-8	per-i	per	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+8	per-i	per	NOUN	_	Case=Nom|Number=Sing|Person=3	14	nmod	_	_
 9	ferr	ferr	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nmod	_	_
 10	ü	ü	CCONJ	_	_	11	cc	_	_
-11	bâl-ı	bâl-ı	NOUN	_	_	14	conj	_	_
+11	bâl-ı	bâl-ı	NOUN	_	_	8	conj	_	_
 12	iḳbâlle	iḳbâlle	ADJ	_	Case=Ins|Number=Plur|Person=3	11	obl	_	_
 13	uçup	uç	ADV	_	_	14	advcl	_	_
 14	gitdi	git	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -925,15 +925,15 @@
 # sent_id = 75
 # text = evet, biraz da ʿaşḳtan, daha doġrusu yine ʿaşḳtan baḥs̱edelim
 1	evet	evet	INTJ	_	_	11	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	Comma	_	11	punct	_	_
+2	,	,	PUNCT	Comma	_	1	punct	_	_
 3	biraz	biraz	ADV	_	_	5	amod	_	_
 4	da	da	PART	Emph	_	3	advmod:emph	_	SpaceAfter=No
 5	ʿaşḳtan	ʿaşḳ	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl	_	SpaceAfter=No
-6	,	,	PUNCT	Comma	_	11	punct	_	_
+6	,	,	PUNCT	Comma	_	5	punct	_	_
 7	daha	daha	ADV	_	_	8	advmod	_	_
-8	doġrusu	doġru	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	amod	_	_
+8	doġrusu	doġru	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	amod	_	_
 9	yine	yine	ADV	_	_	11	advmod	_	_
-10	ʿaşḳtan	ʿaşḳ	NOUN	_	Case=Abl|Number=Sing|Person=3	5	conj	_	_
+10	ʿaşḳtan	ʿaşḳ	NOUN	_	Case=Abl|Number=Sing|Person=3	11	conj	_	_
 11	baḥs̱edelim	baḥs̱et	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	0	root	_	_
 
 # sent_id = 76
