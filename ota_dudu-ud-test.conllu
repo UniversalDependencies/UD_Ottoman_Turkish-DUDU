@@ -42,7 +42,7 @@
 # text = ol ḳırḳ nâmerdüñ bir ḳaçı oġlanuñ yanına geldi eydür
 1	ol	ol	DET	_	Definite=Def|PronType=Art	3	det	_	_
 2	ḳırḳ	ḳırḳ	NUM	_	NumType=Card	3	nummod	_	_
-3	nâmerdüñ	nâmerd	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod:part	_	DerivedFrom=merd
+3	nâmerdüñ	nâmerd	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod	_	DerivedFrom=merd
 4	bir	bir	DET	_	Definite=Ind|PronType=Art	5	det	_	_
 5	ḳaçı	ḳaçı	NOUN	_	Case=Nom|Number=Sing|Person=3	6	amod	_	_
 6	oġlanuñ	oġlan	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod	_	_
