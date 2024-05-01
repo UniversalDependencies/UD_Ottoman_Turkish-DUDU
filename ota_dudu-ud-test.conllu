@@ -497,7 +497,7 @@
 6	voyvodaları	voyvoda	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nsubj	_	_
 7	ḳadîm	ḳadîm	ADJ	Adj	_	8	amod	_	SpaceAfter=No
 8	ü’l-eyyâmdan	eyyâm	NOUN	Noun	Case=Abl|Number=Sing|Person=3	12	obl	_	_
-9	devlet-i	devlet-i	NOUN	Noun	_	11	nmod:poss	_	_
+9	devlet-i	devlet-i	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
 10	ʿaliyyenüñ	ʿaliyyenüñ	ADJ	Adj	Case=Gen|Number=Sing|Person=3	9	nmod:poss	_	_
 11	dostına	dost	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
 12	dost	dost	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -533,7 +533,7 @@
 6	yoḫsa	yoḫsa	CCONJ	_	_	10	cc	_	_
 7	hindden	hind	PROPN	Place	Case=Abl|Number=Sing|Person=3	8	obl	_	_
 8	yemenden	yemen	PROPN	Place	Case=Abl|Number=Sing|Person=3	9	obl	_	_
-9	ḥakîm	ḥakîm	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
+9	ḥakîm	ḥakîm	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 10	getürseler	getür	VERB	_	Aspect=Hab|Number=Plur|Person=3|Polarity=Pos|Tense=Pres	11	advcl	_	_
 11	fâʾide	fâʾide	NOUN	_	Case=Nom|Number=Sing|Person=3	12	compound	_	_
 12	eylemez	eyle	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	4	conj	_	_
