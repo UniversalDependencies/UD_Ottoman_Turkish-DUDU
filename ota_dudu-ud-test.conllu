@@ -80,7 +80,7 @@
 5	bir	bir	DET	_	Definite=Ind|PronType=Art	6	det	_	_
 6	ḳuzıcaġı	ḳuzucuḳ	NOUN	_	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
 7	olmaz	ol	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	ccomp	_	_
-8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse:q	_	_
+8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse	_	_
 9	olur	ol	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 9
@@ -966,7 +966,7 @@
 8	vücûdundan	vücûd	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
 9	bilmem	bil	VERB	_	Aspect=Hab|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	csubj	_	_
 10	ḫaberdâr	ḫaberdâr	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-11	mısınız	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	10	discourse:q	_	SpaceAfter=No
+11	mısınız	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	10	discourse	_	SpaceAfter=No
 12	?	?	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 77
@@ -1040,7 +1040,7 @@
 3	ḳonaḳlarında	ḳonaḳ	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 4-5	içerideki	_	_	_	_	_	_	_	_
 4	içeride	içeri	NOUN	_	Case=Loc|Number=Sing|Person=3	5	nmod	_	_
-5	ki	ki	PART	Attr	_	3	dep:der	_	_
+5	ki	ki	PART	Attr	_	3	dep	_	_
 6	şeylerin	şey	NOUN	_	Case=Gen|Number=Plur|Person=3	7	nsubj	_	_
 7	dışarıya	dışarı	NOUN	_	Case=Dat|Number=Sing|Person=3	8	obl	_	_
 8	ṣızmasını	ṣızma	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
