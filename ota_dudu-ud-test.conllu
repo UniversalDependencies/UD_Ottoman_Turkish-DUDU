@@ -749,7 +749,7 @@
 15	birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	16	amod	_	_
 16	lisânlardan	lisân	NOUN	_	Case=Abl|Number=Plur|Person=3	17	nmod	_	_
 17	addolunmaġa	addol	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	0	root	_	_
-18-19	şâyândır	_	_	_	_	_	_	_	_
+18-19	şâyândır	_	_	_	_	_	_	_	SpaceAfter=No
 18	şâyân	şâyân	ADJ	Adj	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 19	dır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	17	cop	_	_
 20	.	.	PUNCT	Stop	_	17	punct	_	_
@@ -766,7 +766,7 @@
 8	bu	bu	DET	Demons	_	9	det	_	_
 9	ʿaṣrın	ʿaṣr	NOUN	_	Case=Gen|Number=Sing|Person=3	10	nmod:poss	_	_
 10	yapması	yap	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	0	root	_	_
-11-12	degildir	_	_	_	_	_	_	_	_
+11-12	degildir	_	_	_	_	_	_	_	SpaceAfter=No
 11	degil	degil	AUX	Neg	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	10	aux	_	_
 12	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 13	.	.	PUNCT	Stop	_	10	punct	_	_
@@ -830,7 +830,7 @@
 3	elbette	elbette	ADV	Adverb	_	6	advmod	_	_
 4	iki	iki	NUM	ANum	NumType=Card	5	nummod	_	_
 5	dizi	dizi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-6-7	incidir	_	_	_	_	_	_	_	_
+6-7	incidir	_	_	_	_	_	_	_	SpaceAfter=No
 6	inci	inci	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 7	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 8	.	.	PUNCT	Punc	_	6	punct	_	_
@@ -847,7 +847,7 @@
 8	bütün	bütün	ADJ	Adj	_	9	amod	_	_
 9	hayali	hayal	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10	inkişâf	inkişâf	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-11-12	ederdi	_	_	_	_	_	_	_	_
+11-12	ederdi	_	_	_	_	_	_	_	SpaceAfter=No
 11	eder	et	VERB	Ptcp	Aspect=Hab|Polarity=Pos|VerbForm=Part	10	compound:lvc	_	_
 12	di	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	10	cop	_	_
 13	.	.	PUNCT	Stop	_	10	punct	_	_
@@ -871,7 +871,7 @@
 14	ḥürriyetperest	ḥürriyetperest	ADJ	Adj	_	12	conj	_	_
 15	ahâlîmizin	ahâlî	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	17	nmod:poss	_	_
 16	tercümân-ı	tercümân	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	8	conj	_	_
-17-18	efkârıdır	_	_	_	_	_	_	_	_
+17-18	efkârıdır	_	_	_	_	_	_	_	SpaceAfter=No
 17	efkârı	efkâr	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod:poss	_	_
 18	dır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	16	cop	_	_
 19	.	.	PUNCT	Stop	_	16	punct	_	_
@@ -902,7 +902,7 @@
 7	şeyʾin	şeyʾ	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
 8	żapṭ	zapt	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
 9	ve	ve	CCONJ	Conj	_	10	cc	_	_
-10-11	tasvîridir	_	_	_	_	_	_	_	_
+10-11	tasvîridir	_	_	_	_	_	_	_	SpaceAfter=No
 10	tasvîri	tasvîr	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	conj	_	_
 11	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 12	.	.	PUNCT	Punc	_	8	punct	_	_
@@ -915,7 +915,7 @@
 4	degersiz	degersiz	ADJ	Adj	_	6	amod	_	DerivedFrom=deger
 5	bir	bir	DET	Indef	_	6	det	_	_
 6	intisâbım	intisâb	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	7	nsubj	_	_
-7-8	vardır	_	_	_	_	_	_	_	_
+7-8	vardır	_	_	_	_	_	_	_	SpaceAfter=No
 7	var	var	NOUN	Exist	Number=Sing|Person=3|Polarity=Pos	0	root	_	_
 8	dır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 9	.	.	PUNCT	Stop	_	7	punct	_	_
@@ -973,7 +973,7 @@
 8	doġrusu	doġru	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	amod	_	_
 9	yine	yine	ADV	_	_	11	advmod	_	_
 10	ʿaşḳtan	ʿaşḳ	NOUN	_	Case=Abl|Number=Sing|Person=3	11	obl	_	_
-11	baḥsedelim	baḥset	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	0	root	_	_
+11	baḥsedelim	baḥset	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 76
@@ -1006,7 +1006,7 @@
 11	ḳısm-ı	ḳısm	NOUN	Noun	_	12	amod	_	_
 12	ʿazamı	ʿazam	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	_
 13	çam	çam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
-14-15	nevʿindendir	_	_	_	_	_	_	_	_
+14-15	nevʿindendir	_	_	_	_	_	_	_	SpaceAfter=No
 14	nevʿinden	nevʿ	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 15	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
 16	.	.	PUNCT	Punc	_	14	punct	_	_
@@ -1052,7 +1052,7 @@
 7	bir	bir	DET	Indef	_	9	det	_	_
 8	ḳapı	ḳapı	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
 9	çalışı	çal	VERB	Vnoun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|VerbForm=Vnoun	10	nsubj	_	_
-10-11	vardı	_	_	_	_	_	_	_	_
+10-11	vardı	_	_	_	_	_	_	_	SpaceAfter=No
 10	var	var	NOUN	Exist	Number=Sing|Person=3|Polarity=Pos	0	root	_	_
 11	dı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	10	cop	_	_
 12	.	.	PUNCT	Stop	_	10	punct	_	_
@@ -1080,7 +1080,7 @@
 5	bir	bir	DET	Indef	_	6	det	_	_
 6	şubat	şubat	PROPN	_	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 7	gecesi	gece	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nsubj	_	_
-8-9	vardı	_	_	_	_	_	_	_	_
+8-9	vardı	_	_	_	_	_	_	_	SpaceAfter=No
 8	var	var	NOUN	Exist	Number=Sing|Person=3|Polarity=Pos	0	root	_	_
 9	dı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	8	cop	_	_
 10	.	.	PUNCT	Stop	_	8	punct	_	_
