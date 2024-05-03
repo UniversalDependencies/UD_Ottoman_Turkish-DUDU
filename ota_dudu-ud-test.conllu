@@ -1095,7 +1095,7 @@
 6	de	de	PART	Emph	_	5	advmod:emph	_	_
 7	ḥalḳa	ḥalḳ	NOUN	_	Case=Dat|Number=Sing|Person=3	9	obl	_	_
 8	medeniyyet	medeniyyet	NOUN	_	Case=Acc|Number=Sing|Person=3	9	obj	_	_
-9-10	götürmektir	_	_	_	_	_	_	_	_
+9-10	götürmektir	_	_	_	_	_	_	_	SpaceAfter=No
 9	götürmek	götür	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	0	root	_	_
 10	tir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 11	.	.	PUNCT	Stop	_	9	punct	_	_
@@ -1108,7 +1108,7 @@
 4	lisânımız	lisân	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	6	nsubj	_	_
 5	bunlardan	bu	PRON	Demons	Case=Abl|Number=Plur|Person=3|PronType=Dem	6	nmod	_	_
 6	hangisi	hangi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
-7-8	olacaḳtır	_	_	_	_	_	_	_	_
+7-8	olacaḳtır	_	_	_	_	_	_	_	SpaceAfter=No
 7	olacaḳ	ol	VERB	Ptcp	Aspect=Prosp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	0	root	_	_
 8	tır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 9	?	?	PUNCT	Punc	_	7	punct	_	_
