@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>85</sentences><tokens>766</tokens><words>813</words><fused>47</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>85</sentences><tokens>766</tokens><words>813</words><fused>47</fused></test>
+  </size>
+  <lemmas unique="483" /><!-- i, bir, ol, ., bu, ve, ,, et, de, ki, y, var, ne, biñ, cümle -->
+  <forms unique="599" /><!-- bir, ., ve, bu, dur, ,, dir, ki, dır, var, dür, ne, olur, biñ, ol -->
+  <fusions unique="41" /><!-- vardır, yoḳdur, degildir, vardı, baḥs̱dir, budur, dilerseñ, düşmendür, ederdi, efkârıdır, gevherdür, götürmektir, idrâkdür, incidir, içerideki -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="15">
+    <tag name="ADJ">77</tag><!-- bütün, başḳa, ol, ḳara, al, az, aġca, aʿlâ, bir, bî-pâk -->
+    <tag name="ADP">10</tag><!-- diye, ṣoñra, doġru, gibi, göre, muḳaddem, soñra, üzere -->
+    <tag name="ADV">32</tag><!-- yine, baʿdehû, elbette, hep, bi'l-ḳuvve, biraz, böyle, daha, daḫı, en -->
+    <tag name="AUX">50</tag><!-- i, y, degil, mi, ol -->
+    <tag name="CCONJ">37</tag><!-- ve, ki, ammâ, eger, ile, ne, zîrâ, ü, de, hele -->
+    <tag name="DET">47</tag><!-- bir, bu, o, ol, birḳac, birḳaç, bâżı, cümle, her -->
+    <tag name="INTJ">5</tag><!-- ey, evet, işte, ve’s-selâm -->
+    <tag name="NOUN">306</tag><!-- var, oġlan, şeyʾ, beg, dost, lisân, vaḳt, vücûd, yoḳ, şey -->
+    <tag name="NUM">27</tag><!-- bir, biñ, iki, on, yedi, üç, dört, elli, sekiz, yetmiş -->
+    <tag name="PART">7</tag><!-- da, daḫı, de, i, ki -->
+    <tag name="PRON">23</tag><!-- bu, cümle, ben, ne, o, kendi, nere, ol, sen -->
+    <tag name="PROPN">28</tag><!-- arizona, bayındır, boġdân, celâlî, cânân, dirse, efendi, eflâḳ, gûn, hind -->
+    <tag name="PUNCT">35</tag><!-- ., ,, ?, !, : -->
+    <tag name="SCONJ">6</tag><!-- ki, eger -->
+    <tag name="VERB">123</tag><!-- ol, et, de, bil, git, eyle, gel, getir, ver, ye -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="53">
+    <feat name="Aspect" value="Hab" upos="VERB">34</feat><!-- olur, eydür, idesin, olmaz, bilesiñiz, bilmem, degmez, diler, dirler, edebilirsiniz -->
+    <feat name="Aspect" value="Imp" upos="AUX">2</feat><!-- mı, mısınız -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">80</feat><!-- dir, dur, dır, dür, dedi, dı, geldi, idi, olduġu, tir -->
+    <feat name="Aspect" value="Prog" upos="VERB">1</feat><!-- gidiyoruz -->
+    <feat name="Aspect" value="Prosp" upos="VERB">1</feat><!-- olacaḳ -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,PRON,PROPN,VERB">29</feat><!-- bundan, ʿaşḳtan, andan, atdan, ayaġından, bunlardan, deveden, deñizinden, hindden, kütlesinden -->
+    <feat name="Case" value="Acc" upos="ADJ,NOUN,PRON,VERB">18</feat><!-- adın, beni, bâdâmı, cümlesin, esâsiyesini, keçe, kimseyi, medeniyyet, sitemi, valsini -->
+    <feat name="Case" value="Dat" upos="ADJ,NOUN,PRON,PROPN,VERB">49</feat><!-- üzerine, altına, içine, ḥalḳa, addolunmaġa, buña, cihete, dile, dostına, döşegine -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,PRON,PROPN,VERB">45</feat><!-- bunuñ, ahkâm-ı, ahâlîmizin, anasınıñ, aġaçlarıñ, benim, beḳâ-yı, dostuñ, du’ânuñ, edille-i -->
+    <feat name="Case" value="Ins" upos="ADJ,NOUN">7</feat><!-- berekâtıyla, birligiyle, cihetle, defterile, iḳbâlle, manṣûrla, şekerle -->
+    <feat name="Case" value="Loc" upos="ADJ,NOUN">19</feat><!-- cânibinde, dünyada, dünyâda, dışarıda, eyâletinde, içeride, miḳdârçe, muʿammâda, müslümânlıḳta, sefîrinde -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">207</feat><!-- oġlan, aġa, begler, dost, dur, idrâk, ne, vaḳt, altunı, anası -->
+    <feat name="Definite" value="Def" upos="DET">6</feat><!-- o, bu, her, ol -->
+    <feat name="Definite" value="Ind" upos="DET">8</feat><!-- bir, birḳaç, bâżı -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">17</feat><!-- dı, aldı, atdı, başladılar, di, döşediler, eyitdi, geldi, getürdiler, geçdi -->
+    <feat name="Evident" value="Nfh" upos="VERB">5</feat><!-- bilmiş, dimişler, irmiş, olmuş, ḳoymuşdur -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PROPN">8</feat><!-- esâsiyesini, meşrûʿa-i, nefîsenin, tebʿa-i, şerîfeʾi, ʿaliyyenüñ, ʿos̱mânîyenin, ṣûfiyye -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">4</feat><!-- sañ, yemezse, yerse -->
+    <feat name="Mood" value="Des" upos="VERB">1</feat><!-- dinlese -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">11</feat><!-- ova, bilsün, dönsün, eyleye, getsün, ola, olunuz, yesün, çıḳara, ṭursun -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">24</feat><!-- dedi, avladı, degil, düşdi, eşitdiler, geldi, getürdiler, getürüp, geçen, gidiyoruz -->
+    <feat name="Mood" value="Opt" upos="VERB">2</feat><!-- baḥsedelim, eyleyelüm -->
+    <feat name="Mood" value="Pot" upos="VERB">2</feat><!-- edebilirsiniz, üleşdüremem -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">57</feat><!-- begler, aġaçlarıñ, başladılar, baḥsedelim, begleri, berekâtıyla, bilesiñiz, bunlardan, cümlesi, cümlesin -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">451</feat><!-- dur, dir, dır, var, dür, olur, yoḳ, oġlan, üzerine, adın -->
+    <feat name="Number[psor]" value="Plur" upos="NOUN,PRON,VERB">6</feat><!-- ahâlîmizin, cümlesi, cümlesin, dedigimiz, lisânımız, türkçemiz -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,NOUN,PROPN,VERB">103</feat><!-- üzerine, adın, içine, olduġu, altunı, altına, anası, anasınıñ, ayaġı, ayaġından -->
+    <feat name="NumType" value="Card" upos="NUM">23</feat><!-- biñ, bir, on, iki, yedi, dört, elli, sekiz, yetmiş, yüz -->
+    <feat name="NumType" value="Dist" upos="NUM">1</feat><!-- birer -->
+    <feat name="NumType" value="Ord" upos="NUM">3</feat><!-- birinci, ikinci, üçüncü -->
+    <feat name="Person" value="1" upos="PRON,VERB">8</feat><!-- baḥsedelim, beni, benim, bilmem, eyleyelüm, gidiyoruz, itdüm, üleşdüremem -->
+    <feat name="Person" value="2" upos="AUX,VERB">11</feat><!-- idesin, ova, sañ, bilesiñiz, edebilirsiniz, mısınız, ola, çıḳara -->
+    <feat name="Person" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">483</feat><!-- dur, dir, dır, var, dür, olur, yoḳ, oġlan, üzerine, adın -->
+    <feat name="Person[psor]" value="1" upos="NOUN,VERB">10</feat><!-- ahâlîmizin, dedigimiz, intisâbım, lisânımız, pâdişahım, sitemi, sulṭânım, türkçemiz, yanıma, ḳardeşlerim -->
+    <feat name="Person[psor]" value="3" upos="ADJ,NOUN,PRON,PROPN,VERB">99</feat><!-- üzerine, adın, içine, olduġu, altunı, altına, anası, anasınıñ, ayaġı, ayaġından -->
+    <feat name="Polarity" value="Neg" upos="AUX,NOUN,VERB">17</feat><!-- yoḳ, olmaz, bilmem, bulunmadıġı, degil, degmez, eylemez, gidilmez, istemezler, olmayan -->
+    <feat name="Polarity" value="Pos" upos="AUX,NOUN,VERB">118</feat><!-- olur, var, dedi, eydür, geldi, idesin, olduġu, ova, sañ, ḳoyub -->
+    <feat name="Polite" value="Infm" upos="VERB">1</feat><!-- gidiyoruz -->
+    <feat name="PronType" value="Art" upos="DET">15</feat><!-- bir, o, birḳaç, bu, bâżı, cümle, her, ol -->
+    <feat name="PronType" value="Dem" upos="PRON">9</feat><!-- bu, bundan, bunuñ, bunlardan, bunı, buña -->
+    <feat name="PronType" value="Ind" upos="PRON">1</feat><!-- cümlesin -->
+    <feat name="PronType" value="Int" upos="ADV,PRON">4</feat><!-- ne, nereye -->
+    <feat name="PronType" value="Prs" upos="PRON">7</feat><!-- andan, beni, benim, kendi, ol, onlar, sen -->
+    <feat name="Reflex" value="Yes" upos="PRON">1</feat><!-- kendi -->
+    <feat name="Tense" value="Fut" upos="VERB">1</feat><!-- olacaḳ -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">44</feat><!-- dedi, dı, geldi, olduġu, aldı, atdı, avladı, başladılar, bilmiş, bulunmadıġı -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">91</feat><!-- dir, dur, dır, dür, olur, eydür, idesin, olmaz, ova, tir -->
+    <feat name="VerbForm" value="Conv" upos="VERB">11</feat><!-- ḳoyub, dizüb, döküb, getürüp, idip, idüb, olup, pişürüb, virüb, ḳoymuşdur -->
+    <feat name="VerbForm" value="Fin" upos="VERB">39</feat><!-- idesin, olur, ova, avladı, bilesiñiz, bilmem, degmez, diler, dirler, dönsün -->
+    <feat name="VerbForm" value="Part" upos="VERB">13</feat><!-- olduġu, bulunmadıġı, dedigimiz, eder, gelen, geçen, olan, olduḳtan, olmayan, olur -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">13</feat><!-- addolunmaġa, girmekdür, girmesi, gitmenin, götürmek, içmege, söyleye, yapması, yemege, yetişmekdür -->
+    <feat name="Voice" value="Cau" upos="VERB">1</feat><!-- itdirir -->
+    <feat name="Voice" value="Pass" upos="VERB">5</feat><!-- addolunmaġa, gidilmez, olunur, yazılmışdır, ḳırıldı -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="33">
+    <dep name="acl">17</dep>
+    <dep name="advcl">29</dep>
+    <dep name="advmod">27</dep>
+    <dep name="advmod:emph">7</dep>
+    <dep name="amod">60</dep>
+    <dep name="aux">3</dep>
+    <dep name="case">13</dep>
+    <dep name="cc">27</dep>
+    <dep name="cc:preconj">2</dep>
+    <dep name="ccomp">9</dep>
+    <dep name="compound">15</dep>
+    <dep name="compound:lvc">9</dep>
+    <dep name="conj">33</dep>
+    <dep name="cop">45</dep>
+    <dep name="csubj">4</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">46</dep>
+    <dep name="discourse">8</dep>
+    <dep name="flat">14</dep>
+    <dep name="iobj">2</dep>
+    <dep name="mark">11</dep>
+    <dep name="nmod">49</dep>
+    <dep name="nmod:poss">46</dep>
+    <dep name="nsubj">66</dep>
+    <dep name="nummod">18</dep>
+    <dep name="obj">33</dep>
+    <dep name="obl">92</dep>
+    <dep name="obl:tmod">1</dep>
+    <dep name="parataxis">1</dep>
+    <dep name="punct">35</dep>
+    <dep name="root">85</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
