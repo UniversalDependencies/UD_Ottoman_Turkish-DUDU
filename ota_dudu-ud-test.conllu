@@ -745,7 +745,7 @@
 11	göre	göre	ADP	PCDat	_	10	case	_	SpaceAfter=No
 12	,	,	PUNCT	Comma	_	17	punct	_	_
 13	dünyâda	dünyâda	NOUN	_	Case=Loc|Number=Sing|Person=3	16	obl	_	_
-14	en	en	ADV	_	_	15	advmod	_	_
+14	en	en	ADV	_	Degree=Sup	15	advmod	_	_
 15	birinci	bir	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	16	amod	_	_
 16	lisânlardan	lisân	NOUN	_	Case=Abl|Number=Plur|Person=3	17	nmod	_	_
 17	addolunmaġa	addol	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	18	xcomp	_	_
@@ -2667,3 +2667,4 @@
 # text = varıp gitdi
 1	varıp	var	VERB	Conv	Polarity=Pos|VerbForm=Conv	2	advcl	_	_
 2	gitdi	git	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
