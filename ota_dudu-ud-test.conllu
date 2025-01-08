@@ -2698,11 +2698,11 @@
 
 # sent_id = 299
 # text = gördi bir çôpân ṣıġır güder
-1	gördi	gör	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	5	conj	_	_
+1	gördi	gör	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
 3	çôpân	çôpân	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
 4	ṣıġır	ṣıġır	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
-5	güder	güt	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
+5	güder	güt	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	conj	_	_
 
 # sent_id = 300
 # text = kenʿâna geldi
@@ -2768,7 +2768,7 @@
 # text = şeyḫ sinân beni bu şeklde görürmiş
 1	şeyḫ	şeyḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 2	sinân	sinân	NOUN	_	Case=Nom|Number=Sing|Person=3	1	flat:name	_	_
-3	beni	ben	NOUN	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+3	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 4	bu	bu	DET	Demons	_	5	det	_	_
 5	şeklde	şekl	NOUN	_	Case=Loc|Number=Sing|Person=3	6	obl	_	_
 6-7	görürmiş	_	_	_	_	_	_	_	_
@@ -3033,4 +3033,3 @@
 6	ile	ile	CCONJ	_	_	5	case	_	_
 7	esîr	esîr	NOUN	_	Case=Nom|Number=Sing|Person=3	8	compound:lvc	_	_
 8	olındı	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
-
