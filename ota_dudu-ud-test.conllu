@@ -2667,3 +2667,4 @@
 # text = varıp gitdi
 1	varıp	var	VERB	Conv	Polarity=Pos|VerbForm=Conv	2	advcl	_	_
 2	gitdi	git	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
