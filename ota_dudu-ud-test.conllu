@@ -3194,7 +3194,7 @@
 2	ḥâletle	ḥâlet	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	5	obl	_	_
 3	beglerine	beg	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 4	tefriḳa	tefriḳa	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
-5	düşer		VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+5	düşer	düş	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = 344
 # text = âteş-i ḫasâretle cigerleri kebâb olduġını ol sîḫlar ile işʿâr eylemişler
