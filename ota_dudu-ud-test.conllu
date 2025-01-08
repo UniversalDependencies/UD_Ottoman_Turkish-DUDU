@@ -1231,8 +1231,10 @@
 
 # sent_id = 101
 # text = bilâd-ı cebeldendür
-1	bilâd-ı	bilâd	NOUN	_	Case=Gen|Gender=Fem|Number=Plur|Person=3	2	nmod:poss	_	_
-2	cebeldendür	cebel	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	0	root	_	_
+1	bilâd-ı	bilâd	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Person=3	2	nmod:poss	_	_
+2-3	cebeldendür	_	_	_	_	_	_	_	_
+2	cebelden	cebel	NOUN	_	Case=Abl|Gender=Fem|Number=Plur|Person=3	0	root	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 102
 # text = ve baʿżılar ḳavlince iṣfahân ikidür
@@ -1247,7 +1249,9 @@
 1	biri	biri	PRON	Pers	_	4	nsubj	_	_
 2	yehûdiyye	yehûdiyye	PROPN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
 3	dimekle	de	VERB	Vnoun	Case=Ins|Number=Sing|Person=3|Polarity=Pos	4	obl	_	_
-4	maʿrûfdur	maʿrûf	ADJ	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
+2-3	maʿrûfdur	_	_	_	_	_	_	_	_
+4	maʿrûf	maʿrûf	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+5	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
 # sent_id = 104
 # text = ʿırâḳ vilâyetindedür
@@ -1366,7 +1370,7 @@
 
 # sent_id = 119
 # text = ġâyetle nâdir olur
-1	ġâyetle	ġâyet	NOUN	_	Case=Ins|Number=Sing|Person=3	3	advmod	_	_
+1	ġâyetle	ġâyet	ADV	_	_	3	advmod	_	_
 2	nâdir	nâdir	ADJ	_	_	3	compound:lvc	_	_
 3	olur	ol	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 
@@ -1506,12 +1510,16 @@
 # sent_id = 138
 # text = ismi aḥmeddür
 1	ismi	ismi	NOUN	_	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
-2	aḥmeddür	aḥmed	PROPN	Pers	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2-3	aḥmeddür	_	_	_	_	_	_	_	_
+2	aḥmed	aḥmed	PROPN	Pers	Case=Nom|Number=Sing|Person=3	0	root	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 139
 # text = ḳużât zümresindendür
 1	ḳużât	ḳużât	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
-2	zümresindendür	zümre	NOUN	_	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+2-3	zümresindendür	_	_	_	_	_	_	_	_
+2	zümresinden	zümre	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 140
 # text = ḳaresi sancaġından balıkesri nâm ḳaṣabadandur
@@ -2185,7 +2193,7 @@
 
 # sent_id = 234
 # text = âmîn
-1	âmîn	âmîn	INTJ	_	_	0	discourse	_	_
+1	âmîn	âmîn	INTJ	_	_	0	root	_	_
 
 # sent_id = 235
 # text = ammâ bir ʿâdetüm var
@@ -2256,7 +2264,7 @@
 
 # sent_id = 243
 # text = züheyrden yaña revân oldı
-1	züheyrden	züheyr	PROPN	Pers	Case=Abl|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+1	züheyrden	züheyr	PROPN	Pers	Case=Abl|Number=Sing|Person=3	3	obl	_	_
 2	yaña	yan	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl	_	_
 3	revân	revân	NOUN	_	Case=Nom|Number=Sing|Person=3	4	compound:lvc	_	_
 4	oldı	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
@@ -2294,7 +2302,7 @@
 # text = dâyim anı añup aġlardı
 1	dâyim	dâyim	ADV	_	_	4	advmod	_	_
 2	anı	o	PRON	Pers	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-3	añup	añ	ADV	Conv	Polarity=Pos|VerbForm=Conv	4	advcl	_	_
+3	añup	añ	VERB	Conv	Polarity=Pos|VerbForm=Conv	4	advcl	_	_
 4-5	aġlardı	_	_	_	_	_	_	_	_
 4	aġlar	aġla	VERB	Ptcp	Aspect=Hab|Number=Plur|Person=2|Polarity=Pos|VerbForm=Part	0	root	_	_
 5	dı	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	4	cop	_	_
