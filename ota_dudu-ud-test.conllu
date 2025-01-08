@@ -1155,7 +1155,7 @@
 4	ḳapusı	ḳapu	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	_
 5-6	vardur	_	_	_	_	_	_	_	_
 5	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-6	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+6	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 
 # sent_id = 92
 # text = birisinüñ açılması cumʿa günlerine maḫṣûṣdur
@@ -1165,7 +1165,7 @@
 4	günlerine	gün	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	5	obl	_	_
 5-6	maḫṣûṣdur	_	_	_	_	_	_	_	_
 5	maḫṣûṣ	maḫṣûṣ	ADJ	_	_	0	root	_	_
-6	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+6	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 
 # sent_id = 93
 # text = defʿinüñ tedârükine mübâşeret olınurdı
@@ -1499,7 +1499,7 @@
 # text = istanbullıdur
 1-2	istanbullıdur	_	_	_	_	_	_	_	_
 1	istanbullı	istanbul	PROPN	_	Case=Nom|Number=Sing|Person=3	0	root	_	DerivedFrom=istanbul
-2	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+2	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 
 # sent_id = 137
 # text = kitâbetden bölüge çıḳdı
@@ -1512,14 +1512,14 @@
 1	ismi	ismi	NOUN	_	Case=Acc|Number=Sing|Person=3	2	nsubj	_	_
 2-3	aḥmeddür	_	_	_	_	_	_	_	_
 2	aḥmed	aḥmed	PROPN	Pers	Case=Nom|Number=Sing|Person=3	0	root	_	_
-3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 139
 # text = ḳużât zümresindendür
 1	ḳużât	ḳużât	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2-3	zümresindendür	_	_	_	_	_	_	_	_
 2	zümresinden	zümre	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 140
 # text = ḳaresi sancaġından balıkesri nâm ḳaṣabadandur
@@ -1542,7 +1542,7 @@
 2	ṭabaḳasınca	ṭabaḳa	NOUN	_	Case=Equ|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3-4	şâʿirdür	_	_	_	_	_	_	_	_
 3	şâʿirdür	şâʿir	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+4	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 
 # sent_id = 143
 # text = baḥr-i muḥîṭde bir cezîredür
@@ -1586,7 +1586,7 @@
 4	sözleri	söz	NOUN	_	Case=Acc|Number=Plur|Person=3	5	nsubj	_	_
 5-6	nâdirdür	_	_	_	_	_	_	_	_
 5	nâdir	nâdir	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-6	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+6	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 
 # sent_id = 149
 # text = ḫuṣûṣâ dânyâl nebî ʿaleyhi’s-selâm ḳabri andadur
@@ -1599,7 +1599,7 @@
 6	ḳabri	ḳabr	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 7-8	andadur	_	_	_	_	_	_	_	_
 7	anda	o	PRON	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+8	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 
 # sent_id = 150
 # text = ġâyetle bâġlu ve bâġçelü buḳʿa-i mübârekedür
@@ -1646,7 +1646,7 @@
 5	revânı	revânı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod:poss	_	_
 6-7	vardur	_	_	_	_	_	_	_	_
 6	vardur	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-7	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+7	dır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 
 # sent_id = 155
 # text = ammâ vüsʿati yetmiş üç fersaḫ ḥisâbındadur
@@ -1657,7 +1657,7 @@
 5	fersaḫ	fersaḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
 6-7	ḥisâbındadur	_	_	_	_	_	_	_	_
 6	ḥisâbında	ḥisâb	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-7	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+7	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 
 # sent_id = 156
 # text = el-ḥaḳ bu ġazeli daḫı ḫûb dimişdür
@@ -1666,7 +1666,7 @@
 3	ġazeli	ġazeli	NOUN	_	Case=Acc|Number=Sing|Person=3	6	nsubj	_	_
 4	daḫı	daḫı	ADV	_	_	3	case	_	_
 5	ḫûb	ḫûb	ADV	_	_	6	advmod	_	_
-6	dimişdür	di	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+6	dimişdür	di	VERB	_	Aspect=Perf|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = 157
 # text = içindeki ibn imâmuñ ıżṭırâbı taʿbîr olınmaz
@@ -1716,7 +1716,7 @@
 6	bir	bir	DET	Indef	_	7	det	_	_
 7-8	ḳaṣabadur	_	_	_	_	_	_	_	_
 7	ḳaṣaba	ḳaṣaba	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+8	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 
 # sent_id = 162
 # text = tefâvüt-i messâḥîn üç yüz ṭoḳsan ṭoḳuz fersaḫdur
@@ -1728,7 +1728,7 @@
 6	ṭoḳuz	ṭoḳuz	NUM	ANum	Case=Nom|Number=Sing|Person=3	3	flat	_	_
 7-8	fersaḫdur	_	_	_	_	_	_	_	_
 7	fersaḫdur	fersaḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+8	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 
 # sent_id = 163
 # text = ve baʿżısı ḳurtılup ḳaçaraḳ buduna vâṣıl oldı
@@ -1752,13 +1752,13 @@
 
 # sent_id = 165
 # text = orada rahmân hakkı için övülecek ve kutlanacaktır
-1	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3|PronType=Loc	5	obl	_	_
+1	orada	ora	PRON	_	Case=Loc|Number=Sing|Person=3	5	obl	_	_
 2	rahmân	rahmân	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
 3	hakkı	hakk	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 4	için	için	ADP	PCNom	_	3	case	_	_
 5	övülecek	öv	VERB	Ptcp	Aspect=Prosp|Polarity=Pos|Tense=Fut|Voice=Pass	0	root	_	_
 6	ve	ve	CCONJ	_	_	7	cc	_	_
-7	kutlanacaktır	kutlan	VERB	_	Aspect=Prosp|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	5	ccomp	_	_
+7	kutlanacaktır	kutlan	VERB	_	Aspect=Prosp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	5	ccomp	_	_
 
 # sent_id = 166
 # text = bâreka’llâh
@@ -1769,13 +1769,13 @@
 1-3	arnavudiyyü’l-aṣldur	_	_	_	_	_	_	_	_
 1	arnavudiyy	arnavud	PROPN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	ü’l-aṣlduraṣl	aṣl	NOUN	_	Case=Gen|Number=Sing|Person=3	1	nmod:poss	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 168
 # text = göynüklidür
 1-2	göynüklidür	_	_	_	_	_	_	_	_
 1	göynüklidür	göynükli	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	DerivedFrom=göynük
-2	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+2	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 
 # sent_id = 169
 # text = açdum
@@ -1794,7 +1794,7 @@
 2	sâdât-ı	seyyid	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
 3-4	müslimîndendür	_	_	_	_	_	_	_	_
 3	müslimînden	müslim	NOUN	_	Case=Abl|Number=Plur|Person=3	2	nmod:poss	_	_
-4	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+4	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 
 # sent_id = 172
 # text = devşürdüm
@@ -1804,7 +1804,7 @@
 # text = fużalâdandır
 1-2	fużalâdandır	_	_	_	_	_	_	_	_
 1	fużalâdan	fâżil	NOUN	_	Case=Abl|Number=Plur|Person=3	0	root	_	DerivedFrom=feyż
-2	dır	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+2	dır	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 
 # sent_id = 174
 # text = bolevîdür
@@ -1815,7 +1815,7 @@
 1-3	ḳasṭamoniyyü’l-aṣldur	_	_	_	_	_	_	_	_
 1	ḳasṭamoniyyü’l	ḳasṭamoni	PROPN	Place	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	aṣl	aṣl	NOUN	_	Case=Gen|Number=Sing|Person=3	1	nmod:poss	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 176
 # text = alaşehrlidür
@@ -1830,7 +1830,7 @@
 1-3	buḫâriyyü’l-aṣldur	_	_	_	_	_	_	_	_
 1	buḫâriyyü’l	buḫârî	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 2	aṣl	aṣl	NOUN	_	Case=Gen|Number=Sing|Person=3	1	nmod:poss	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 179
 # text = raḥimehu’llâh
@@ -1847,7 +1847,7 @@
 2	bunı	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 3	diri	diri	ADJ	_	_	4	amod	_	_
 4	ḳoyacaḳ	ḳoy	VERB	Ptcp	Aspect=Prosp|Polarity=Pos|Tense=Fut|VerbForm=Part	5	acl	_	_
-5	degülin	degül	AUX	Overt	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	_
+5	degülin	degil	AUX	Overt	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	_
 
 # sent_id = 182
 # text = imdi siz atın ve ḳılıcın ve geyecegin aluñ
@@ -1948,7 +1948,7 @@
 # text = gelibolîdür
 1-2	gelibolîdür	_	_	_	_	_	_	_	_
 1	gelibolî	gelibolî	ADJ	_	_	0	root	_	DerivedFrom=gelibolu
-2	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+2	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
 
 # sent_id = 196
 # text = küçüçükden bisletürüm
@@ -1997,7 +1997,7 @@
 # sent_id = 204
 # text = inṣâf degüldür
 1	inṣâf	inṣâf	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
-2	degüldür	değil	AUX	Neg	Case=Nom|Number=Sing|Person=3	1	aux	_	_
+2	degüldür	degil	AUX	Neg	Case=Nom|Number=Sing|Person=3	1	aux	_	_
 
 # sent_id = 205
 # text = ḍâcir dirleridi
@@ -2051,7 +2051,7 @@
 # sent_id = 214
 # text = nâzluca büyümişdür
 1	nâzluca	nâzluca	ADV	Adv	_	2	advmod	_	DerivedFrom=nâz
-2	büyümişdür	büyü	VERB	_	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+2	büyümişdür	büyü	VERB	_	Aspect=Perf|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = 215
 # text = ne ḥâcetüñ vardur
@@ -2059,7 +2059,7 @@
 2	ḥâcetüñ	ḥâcet	NOUN	_	Case=Gen|Number=Sing|Person=3	3	obj	_	_
 3-4	vardur	_	_	_	_	_	_	_	_
 3	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-4	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+4	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 
 # sent_id = 216
 # text = anı ṣalıvirdi
@@ -2071,7 +2071,7 @@
 1	medresesi	medresesi	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	nsubj	_	_
 2-3	vardur	_	_	_	_	_	_	_	_
 2	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 218
 # text = vaṭan ḥasretinden ve rûzigâr şiddetinden cigerini ṭaġlar
@@ -2475,14 +2475,14 @@
 1	ʿacem	ʿacem	PROPN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
 2-3	şuʿarâsındandur	_	_	_	_	_	_	_	_
 2	şuʿarâsından	şuʿarâ	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 269
 # text = yaylak yirdür
 1	yaylak	yaylak	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2-3	yirdür	_	_	_	_	_	_	_	_
 2	yir	yir	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-3	dir	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dir	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 270
 # text = müteḥayyir oldı
@@ -2531,7 +2531,7 @@
 1	vilâyet-i	vilâyet	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	obl	_	_
 2-3	maġribdedür	_	_	_	_	_	_	_	_
 2	maġribde	maġrib	NOUN	_	Case=Loc|Number=Sing|Person=3	0	root	_	_
-3	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 279
 # text = iṭâʿat itmediler
@@ -2553,7 +2553,7 @@
 1	fîṭalînâs	fîṭalîn	PROPN	Pers	Case=Nom|Number=Sing|Person=3	2	obj	_	_
 2-3	konbânyadandur	_	_	_	_	_	_	_	_
 2	konbânyadan	konbânya	PROPN	Place	Case=Abl|Number=Sing|Person=3	0	root	_	_
-3	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+3	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
 
 # sent_id = 283
 # text = mecmûʿsını ḳullanurdı
@@ -2601,7 +2601,7 @@
 3	ismi	ismi	NOUN	_	Case=Acc|Number=Sing|Person=3	4	nsubj	_	_
 4-5	sengâdîb’dür	_	_	_	_	_	_	_	_
 4	sengâdîb	sengâdîb	PROPN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-5	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+5	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
 # sent_id = 289
 # text = sevâḥil-i hindde bir şehrdür
@@ -2610,7 +2610,7 @@
 3	bir	bir	DET	Indef	_	4	det	_	_
 4-5	şehrdür	_	_	_	_	_	_	_	_
 4	şehr	şehr	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
-5	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+5	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
 # sent_id = 290
 # text = ṣanʿâ yemen vilâyetinüñ eñ büyük şehridür
@@ -2621,7 +2621,7 @@
 5	büyük	büyük	ADJ	Adj	_	6	amod	_	_
 6-7	şehridür	_	_	_	_	_	_	_	_
 6	şehri	şehr	NOUN	_	Case=Acc|Number=Sing|Person=3	0	root	_	_
-7	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
+7	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 
 # sent_id = 291
 # text = ammâ ḫalḳınuñ yüzleri devâb ṣûretindedür
@@ -2631,7 +2631,7 @@
 4	devâb	devâb	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5-6	ṣûretindedür	_	_	_	_	_	_	_	_
 5	ṣûretinde	ṣûret	NOUN	_	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
-6	dür	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+6	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
 
 # sent_id = 292
 # text = müddet-i salṭanatı ṭoḳuz buçuḳ yıl oldı
