@@ -1366,7 +1366,6 @@
 4	vâḳiʿ	vâḳiʿ	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
-
 # sent_id = 118
 # text = ammâ ki arslanı bulınmaz
 1	ammâ	ammâ	CCONJ	_	_	4	advmod	_	_
@@ -1915,7 +1914,7 @@
 2	ḳarı	ḳarı	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3	eyitdi	eyitdi	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	züheyrüñ	züheyr	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	6	nmod:subj	_	_
+5	züheyrüñ	züheyr	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	6	nmod:poss	_	_
 6	oġlı	oġlı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7-8	ondur	_	_	_	_	_	_	_	_
 7	on	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	10	ccomp	_	_
@@ -3092,7 +3091,7 @@
 # text = dil-âverleri kaġan arslanlar gibi ol ḫûk-i bed-ḫûylaruñ kellelerine girişür
 1	dil-âverleri	dil-âver	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 2	kaġan	kaġan	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-3	arslanlar	arslan	NOUN	_	Case=Nom|Number=Plur|Person=3	9	advmod	_	_
+3	arslanlar	arslan	NOUN	_	Case=Nom|Number=Plur|Person=3	9	obl	_	_
 4	gibi	gibi	ADP	PCNom	_	2	case	_	_
 5	ol	ol	DET	Demons	_	6	det	_	_
 6	ḫûk-i	ḫûk	NOUN	_	_	8	nmod:poss	_	_
@@ -3180,7 +3179,7 @@
 # text = muḳaddemce gürîzgâh u cây-ı penâh tedârük itdügi ḥiṣârına riḥlet ider
 1	muḳaddemce	muḳaddemce	ADV	_	_	10	advmod	_	DerivedFrom=muḳaddem
 2	gürîzgâh	gürîzgâh	ADJ	_	_	7	obj	_	_
-3	u	u	_	_	_	2	cc	_	_
+3	u	u	CCONJ	_	_	2	cc	_	_
 4	cây-ı	cây	NOUN	_	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 5	penâh	penâh	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
 6	tedârük	tedârük	NOUN	_	_	7	compound:lvc	_	_
@@ -3207,7 +3206,7 @@
 6	ol	ol	DET	Demons	_	7	det	_	_
 7	sîḫlar	sîḫ	NOUN	_	Case=Nom|Number=Plur|Person=3	10	obl	_	_
 8	ile	ile	CCONJ	_	_	7	case	_	_
-9	işʿâr	işʿâr	NOUN	_	Case=Nom|Number=Sing|Person=3	10	root	_	_
+9	işʿâr	işʿâr	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound:lvc	_	_
 10	eylemişler	eyle	VERB	_	Evident=Nfh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = 345
