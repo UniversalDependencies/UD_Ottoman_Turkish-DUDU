@@ -1249,7 +1249,7 @@
 1	biri	biri	PRON	Pers	_	4	nsubj	_	_
 2	yehûdiyye	yehûdiyye	PROPN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	obj	_	_
 3	dimekle	de	VERB	Vnoun	Case=Ins|Number=Sing|Person=3|Polarity=Pos	4	obl	_	_
-2-3	maʿrûfdur	_	_	_	_	_	_	_	_
+4-5	maʿrûfdur	_	_	_	_	_	_	_	_
 4	maʿrûf	maʿrûf	ADJ	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 5	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
