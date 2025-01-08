@@ -1847,7 +1847,7 @@
 2	bunı	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	5	obj	_	_
 3	diri	diri	ADJ	_	_	4	amod	_	_
 4	ḳoyacaḳ	ḳoy	VERB	Ptcp	Aspect=Prosp|Polarity=Pos|Tense=Fut|VerbForm=Part	5	acl	_	_
-5	degülin	degil	AUX	Overt	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	_
+5	degülin	degül	AUX	Overt	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	_
 
 # sent_id = 182
 # text = imdi siz atın ve ḳılıcın ve geyecegin aluñ
@@ -1997,7 +1997,7 @@
 # sent_id = 204
 # text = inṣâf degüldür
 1	inṣâf	inṣâf	NOUN	_	Case=Nom|Number=Plur|Person=3	0	root	_	_
-2	degüldür	degil	AUX	Neg	Case=Nom|Number=Sing|Person=3	1	aux	_	_
+2	degüldür	degül	AUX	Neg	Case=Nom|Number=Sing|Person=3	1	aux	_	_
 
 # sent_id = 205
 # text = ḍâcir dirleridi
