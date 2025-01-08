@@ -93,8 +93,8 @@
 
 # sent_id = 10
 # text = oġuz begleri bunı eşitdiler şâd olup sevindiler
-1	oġuz	oġuz	NOUN	_	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
-2	begleri	beg	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	flat	_	_
+1	oġuz	oġuz	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	begleri	beg	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	nsubj	_	_
 3	bunı	bu	PRON	_	PronType=Dem	4	obj	_	_
 4	eşitdiler	eşit	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 5	şâd	şâd	ADJ	Adj	_	7	xcomp	_	_
@@ -359,7 +359,7 @@
 # sent_id = 29
 # text = sultân murâd ḫân biñ târîḫinden soñra gelen pâdişâhların ʿâzâmı idi
 1	sultân	sultân	PROPN	_	Case=Nom|Number=Sing	9	nsubj	_	_
-2	murâd	murâd	PROPN	_	Case=Nom|Number=Sing	1	flat	_	_
+2	murâd	murâd	PROPN	_	Case=Nom|Number=Sing	1	flat:name	_	_
 3	ḫân	ḫân	NOUN	_	Case=Nom|Number=Sing|Person=3	1	flat	_	_
 4	biñ	biñ	NUM	_	NumType=Card	5	nummod	_	_
 5	târîḫinden	târîḫ	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
@@ -1910,7 +1910,7 @@
 2	ḳarı	ḳarı	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nsubj	_	_
 3	eyitdi	eyitdi	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nmod	_	_
-5	züheyrüñ	züheyr	PROPN	Pers	Case=Gen|Number=Sing|Person=3	4	flat	_	_
+5	züheyrüñ	züheyr	PROPN	Pers	Case=Gen|Number=Sing|Person=3	4	flat:name	_	_
 6	oġlı	oġlı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7-8	ondur	_	_	_	_	_	_	_	_
 7	on	o	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	3	ccomp	_	_
@@ -2249,7 +2249,7 @@
 # sent_id = 240
 # text = benî ʿabsüñ pâsubânı oldum
 1	benî	benî	PROPN	_	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
-2	ʿabsüñ	ʿabs	PROPN	_	Case=Gen|Number=Sing|Person=3	1	flat	_	_
+2	ʿabsüñ	ʿabs	PROPN	_	Case=Gen|Number=Sing|Person=3	1	flat:name	_	_
 3	pâsubânı	pâsubân	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
 4	oldum	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
@@ -2278,7 +2278,7 @@
 2	eydür	ey	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
 3	der-ḥâl	der-ḥâl	ADV	_	_	7	advmod	_	_
 4	şeyḫ	şeyḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-5	ḫâlid	ḫâlid	PROPN	_	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+5	ḫâlid	ḫâlid	PROPN	_	Case=Nom|Number=Sing|Person=3	4	flat:name	_	_
 6	atına	at	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
 7	bindi	bin	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	2	conj	_	_
 
@@ -2334,7 +2334,7 @@
 # sent_id = 250
 # text = benî ʿabs üzerine ġalebe itdiler
 1	benî	benî	PROPN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
-2	ʿabs	ʿabs	PROPN	_	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+2	ʿabs	ʿabs	PROPN	_	Case=Nom|Number=Sing|Person=3	1	flat:name	_	_
 3	üzerine	üzer	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
 4	ġalebe	ġalebe	NOUN	_	Case=Dat|Number=Sing|Person=3	5	obj	_	_
 5	itdiler	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
