@@ -32,7 +32,7 @@
 # text = sen var iken av avladı ḳuş ḳuşladı
 1	sen	sen	PRON	_	PronType=Prs	2	nsubj	_	_
 2	var	var	NOUN	_	Number=Sing|Person=3|Polarity=Pos	5	advcl	_	_
-3	iken	iken	ADV	_	_	2	case	_	_
+3	iken	y	AUX	Conv	Polarity=Pos|VerbForm=Conv	2	case	_	_
 4	av	av	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5	avladı	avla	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ḳuş	ḳuş	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
@@ -3718,4 +3718,35 @@
 6	ḥiṣârı	ḥiṣâr	NOUN	_	Case=Acc|Number=Sing|Person=3	7	obj	_	_
 7	dögmege	dög	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	8	ccomp	_	_
 8	başladılar	başla	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 385
+# text = der-ḥâl tırġovişteden alduġı ṭobları ṣuya bıraġur
+1	der-ḥâl	der-ḥâl	ADV	_	_	6	advmod	_	_
+2	tırġovişteden	tırġovişte	PROPN	Place	Case=Abl|NameType=Geo|Number=Sing|Person=3	3	obl	_	_
+3	alduġı	al	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+4	ṭobları	ṭob	NOUN	_	Case=Acc|Number=Plur|Person=3	6	obj	_	_
+5	ṣuya	ṣu	NOUN	_	Case=Dat|Number=Sing|Person=3	6	compound	_	_
+6	bıraġur	bıraġ	VERB	_	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	_
+
+# sent_id = 386
+# text = ve ḫân ġâzî girây ḫavfından çekilüp gitdi
+1	ve	ve	CCONJ	_	_	7	cc	_	_
+2	ḫân	ḫân	NOUN	_	_	4	nmod	_	_
+3	ġâzî	ġâzî	ADJ	_	_	4	amod	_	_
+4	girây	girây	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	7	nsubj	_	_
+5	ḫavfından	ḫavf	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+6	çekilüp	çekil	VERB	Conv	Polarity=Pos|VerbForm=Conv	7	advcl	_	_
+7	gitdi	git	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 387
+# text = ve mühr-i vezâreti elinden alup redd ile malġaraya gönderdiler
+1	ve	ve	CCONJ	_	_	9	cc	_	_
+2	mühr-i	mühr	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+3	vezâreti	vezâret	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	2	nmod:poss	_	_
+4	elinden	el	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl	_	_
+5	alup	al	VERB	Conv	Polarity=Pos|VerbForm=Conv	9	advcl	_	_
+6	redd	redd	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obl	_	_
+7	ile	ile	CCONJ	_	_	6	case	_	_
+8	malġaraya	malġara	PROPN	Place	Case=Dat|NameType=Geo|Number=Sing|Person=3	9	obl	_	_
+9	gönderdiler	gönder	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
