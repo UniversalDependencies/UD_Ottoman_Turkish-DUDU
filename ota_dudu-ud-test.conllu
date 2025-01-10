@@ -4268,7 +4268,7 @@
 3	ḫalâyıḳı	ḫalâyıḳ	NOUN	_	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 4	oġlan	oġlan	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
 5	aġrısı	aġrı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nsubj	_	_
-6	ṭutdı	ṭutdı	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	15	conj	_	_
+6	ṭutdı	ṭutdı	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 7	bir	bir	DET	Indef	_	8	det	_	_
 8	ay	ay	NOUN	_	Case=Nom|Number=Sing|Person=3	15	obl:tmod	_	_
 9	temâm	temâm	ADV	_	_	15	advmod	_	_
@@ -4277,7 +4277,7 @@
 12	gündüz	gündüz	NOUN	_	Case=Nom|Number=Sing|Person=3	10	conj	_	_
 13	ḫaste	ḫaste	ADJ	Adj	Case=Nom|Number=Sing|Person=3	14	xcomp	_	_
 14	olup	ol	VERB	Conv	Polarity=Pos|VerbForm=Conv	15	advcl	_	_
-15	yatdı	yat	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+15	yatdı	yat	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	6	conj	_	_
 
 # sent_id = 434
 # text = ṭavarlarını ḳoyup bunları terk itdiler
