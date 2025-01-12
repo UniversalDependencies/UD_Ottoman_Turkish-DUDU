@@ -5076,7 +5076,7 @@
 9	muʿayyen	muʿayyen	ADJ	Adj	_	8	amod	_	_
 10-11	vardur	_	_	_	_	_	_	_	_
 10	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-11	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
+11	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 
 # sent_id = 495
 # text = ol târîḫde ṭalebe ṭâʾifesin yazduḳları reddâta vuḳûfla imtiḥân ider imiş
@@ -5122,7 +5122,7 @@
 6	iḥtiyâcı	iḥtiyâc	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7-8	yoḳdur	_	_	_	_	_	_	_	_
 7	yoḳ	yoḳ	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
-8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+8	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 
 # sent_id = 499
 # text = mıṣra gelüp mevâlîden şeyḫ ekmelden bir müddet tekmîl-i ʿilm idüp şirketle oḳurlar
