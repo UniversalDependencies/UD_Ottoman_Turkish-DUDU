@@ -5026,9 +5026,9 @@
 # sent_id = 491
 # text = elʾân ḳabri daḫı anda olup ziyâretgâh-ı erbâb-ı ḥâcât imiş
 1	elʾân	elʾân	ADV	_	_	5	advmod	_	_
-2	ḳabri	ḳabr	NOUN	_	Case=Acc|Number=Sing|Person=3	4	advmod	_	_
+2	ḳabri	ḳabr	NOUN	_	Case=Acc|Number=Sing|Person=3	4	obj	_	_
 3	daḫı	daḫı	ADV	Emph	_	2	advmod:emph	_	_
-4	anda	o	PRON	Pers	Case=Loc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	anda	o	PRON	Pers	Case=Loc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 5	olup	ol	VERB	Conv	Polarity=Pos|VerbForm=Conv	8	advcl	_	_
 6	ziyâretgâh-ı	ziyâretgâh	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obj	_	DerivedFrom=ziyâretgâh
 7	erbâb-ı	rabb	NOUN	_	Case=Nom|Number=Plur|Person=3	6	nmod:poss	_	_
@@ -5052,7 +5052,7 @@
 # sent_id = 493
 # text = şeyḫ mûsâ buyurmışlar ki şeyḫ geyüklü baba bize ġalebe ḳaṣd itmemişdür
 1	şeyḫ	şeyḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
-2	mûsâ	mûsâ	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	advmod	_	_
+2	mûsâ	mûsâ	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	nsubj	_	_
 3	buyurmışlar	buyur	VERB	_	Aspect=Perf|Evident=Nfh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 4	ki	ki	SCONJ	_	_	11	mark	_	_
 5	şeyḫ	şeyḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
@@ -5076,13 +5076,13 @@
 9	muʿayyen	muʿayyen	ADJ	Adj	_	8	amod	_	_
 10-11	vardur	_	_	_	_	_	_	_	_
 10	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	0	root	_	_
-11	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	10	cop	_
+11	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	10	cop	_	_
 
 # sent_id = 495
 # text = ol târîḫde ṭalebe ṭâʾifesin yazduḳları reddâta vuḳûfla imtiḥân ider imiş
 1	ol	ol	DET	Demons	_	2	det	_	_
 2	târîḫde	târîḫ	NOUN	_	Case=Loc|Number=Sing|Person=3	5	obl:tmod	_	_
-3	ṭalebe	ṭalebe	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	1	_	_	_
+3	ṭalebe	ṭalebe	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
 4	ṭâʾifesin	ṭâʾife	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 5	yazduḳları	yaz	VERB	Ptcp	Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
 6	reddâta	redd	NOUN	_	Case=Dat|Number=Plur|Person=3	9	obl	_	_
@@ -5144,7 +5144,7 @@
 1	şeyḫ	şeyḫ	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
 2	ḥażretlerinüñ	ḥażret	NOUN	_	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	3	nmod:poss	_	_
 3	vefâtı	vefât	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3	9	nsubj	_	_
-4	ḥicretüñ	ḥicret	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	8	nummod	_	_
+4	ḥicretüñ	ḥicret	NOUN	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	7	nummod	_	_
 5	sekiz	sekiz	NUM	ANum	NumType=Card	7	nummod	_	_
 6	yüz	yüz	NUM	ANum	NumType=Card	5	flat	_	_
 7	ḥudûdundan	ḥudûd	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obl:tmod	_	_
