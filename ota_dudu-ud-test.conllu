@@ -4458,8 +4458,8 @@
 2	vefât	vefât	NOUN	_	Case=Nom|Number=Sing|Person=3	3	compound:lvc	_	_
 3	edip	et	VERB	Conv	Polarity=Pos|VerbForm=Conv	8	advcl	_	_
 4	pederi	peder	NOUN	Noun	Case=Acc|Number=Sing|Person=3	7	nmod	_	_
-5	müşârün	müşâr	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
-6	ileyhiñ	ileyh	NOUN	_	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
+5	müşârün	müşâr	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	7	nmod	_	_
+6	ileyhiñ	ileyh	PRON	Demons	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
 7	yanına	yan	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 8	defnolundu	defnol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
 
@@ -4516,7 +4516,7 @@
 
 # sent_id = 452
 # text = meşâhîr-i ʿulemâdan olup 1160 târîḫlerinde nüsḫa-i ḥayâtı itmâm etmiştir
-1	meşâhîr-i	meşâhîr	NOUN	_	Case=Nom|Number=Sing|Person=3	3	obl	_	_
+1	meşâhîr-i	meşher	NOUN	_	Case=Nom|Number=Plur|Person=3	3	obl	_	_
 2	ʿulemâdan	ʿâlim	NOUN	Noun	Case=Abl|Number=Plur|Person=3	1	nmod:poss	_	_
 3	olup	ol	VERB	Conv	Polarity=Pos|VerbForm=Conv	9	advcl	_	_
 4	1160	1160	NUM	Year	Case=Loc|Number=Sing|Person=3	5	nummod	_	_
@@ -4618,7 +4618,7 @@
 8	vâfir	vâfir	ADJ	Adj	_	9	amod	_	_
 9	riʿâyetden	riʿâyet	NOUN	Noun	Case=Abl|Gender=Fem|Number=Sing|Person=3	13	obl:tmod	_	_
 10	ṣoñra	ṣoñra	ADP	PCAbl	_	9	case	_	_
-11	eṭibbâya	eṭibbâ	NOUN	_	Case=Dat|Gender=Fem|Number=Plur|Person=3	13	obl	_	_
+11	eṭibbâya	tabîb	NOUN	_	Case=Dat|Gender=Fem|Number=Plur|Person=3	13	obl	_	_
 12	reʾîs	reʾîs	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound:lvc	_	_
 13	itdiler	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
@@ -4635,7 +4635,7 @@
 9	ü	ve	CCONJ	_	_	10	cc	_	_
 10	ḥayâ	ḥayâ	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
 11	ve	ve	CCONJ	_	_	12	cc	_	_
-12	leyâli	leyâl	NOUN	_	Case=Acc|Number=Sing|Person=3	5	conj	_	_
+12	leyâli	leyl	NOUN	_	Case=Acc|Number=Plur|Person=3	5	conj	_	_
 13	iḥyâ	iḥyâ	NOUN	_	Case=Nom|Number=Sing|Person=3	14	compound	_	_
 14	idici	edici	ADJ	Adj	_	15	amod	_	_
 15	kimesne	kimesne	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
@@ -4701,9 +4701,9 @@
 
 # sent_id = 465
 # text = aṣḥâbı ve aḥbâbı ve ʿemmüsi oġulları ve girü ḳalan ulular gelip hep mübârek olsun didiler
-1	aṣḥâbı	aṣḥâb	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+1	aṣḥâbı	ṣâḥib	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
 2	ve	ve	CCONJ	_	_	3	cc	_	_
-3	aḥbâbı	aḥbâb	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
+3	aḥbâbı	ḥabîb	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
 4	ve	ve	CCONJ	_	_	5	cc	_	_
 5	ʿemmüsi	ʿemmü	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
 6	oġulları	oġul	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
@@ -4725,7 +4725,7 @@
 4	ḥüsnde	ḥüsn	NOUN	Noun	Case=Loc|Number=Sing|Person=3	10	obl	_	_
 5	ve	ve	CCONJ	_	_	6	cc	_	_
 6	cemâlde	cemâl	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	conj	_	_
-7	yirile	yir	NOUN	_	Case=Ins|Number=Sing|Person=3	8	obl	_	_
+7	yirile	yir	NOUN	_	Case=Ins|Number=Sing|Person=3	8	nmod	_	_
 8	göy	göy	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod	_	_
 9	arası	ara	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
 10-11	ḳadardur	_	_	_	_	_	_	_	_
@@ -4951,4 +4951,75 @@
 11	diyü	diyü	ADP	PCNom	_	9	case	_	_
 12	suʾâl	suʾâl	NOUN	_	Case=Nom|Number=Sing|Person=3	13	compound:lvc	_	_
 13	iderler	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 485
+# text = muʿtaḳdır diyü cevâb virilicek bi-ḥasebi’ş-şer ġanîmet anuñdur diyü ḥükm ider
+1-2	muʿtaḳdır	_	_	_	_	_	_	_	_
+1	muʿtaḳ	muʿtaḳ	NOUN	_	Case=Nom|Number=Sing|Person=3	5	ccomp	_	_
+2	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+3	diyü	diyü	ADP	PCNom	_	1	mark	_	_
+4	cevâb	cevâb	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+5	virilicek	vir	VERB	Conv	Polarity=Pos|VerbForm=Conv	12	advcl	_	_
+6	bi-ḥasebi’ş-şer	bi-ḥasebi’ş-şer	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+7	ġanîmet	ġanîmet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obj	_	_
+8-9	anuñdur	_	_	_	_	_	_	_	_
+8	anuñ	o	PRON	Pers	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|PronType=Prs	12	ccomp	_	_
+9	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
+10	diyü	diyü	ADP	PCNom	_	8	mark	_	_
+11	ḥükm	ḥükm	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound:lvc	_	_
+12	ider	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 486
+# text = ḫıdmet-i şerîfüñüzde istifâde-i ʿilm iden ṭalebeden icâzetiñüzle birisin alup gidelüm
+1	ḫıdmet-i	ḫıdmet	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+2	şerîfüñüzde	şerîf	ADJ	Adj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	amod	_	_
+3	istifâde-i	istifâde	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+4	ʿilm	ʿilm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+5	iden	it	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
+6	ṭalebeden	ṭalebe	NOUN	_	Case=Abl|Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
+7	icâzetiñüzle	icâzet	NOUN	_	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	3	obl	_	_
+8	birisin	biri	PRON	Quant	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+9	alup	al	VERB	Conv	Polarity=Pos|VerbForm=Conv	10	advcl	_	_
+10	gidelüm	git	VERB	_	Mood=Opt|Number=Plur|Person=1|Polarity=Pos	0	root	_	_
+
+# sent_id = 487
+# text = baña üns-i ʿaẓîm ḥâṣıl oldı
+1	baña	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+2	üns-i	üns	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+3	ʿaẓîm	ʿaẓîm	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+4	ḥâṣıl	ḥâṣıl	NOUN	_	Case=Nom|Number=Sing|Person=3	5	compound:lvc	_	_
+5	oldı	ol	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 488
+# text = ḳabr-i müteberrikleri civârında ḳubbe görüp suʾâl itdüm
+1	ḳabr-i	ḳabr	NOUN	_	Case=Nom|Number=Sing|Person=3	3	nmod	_	_
+2	müteberrikleri	müteberrik	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	nmod:poss	_	_
+3	civârında	civâr	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+4	ḳubbe	ḳubbe	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	5	obj	_	_
+5	görüp	gör	VERB	Conv	Polarity=Pos|VerbForm=Conv	7	advcl	_	_
+6	suʾâl	suʾâl	NOUN	_	Case=Nom|Number=Sing|Person=3	7	compound:lvc	_	_
+7	itdüm	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	_
+
+# sent_id = 489
+# text = didiler ki emîr-i ger­miyân evlâdındandur
+1	didiler	di	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+2	ki	ki	SCONJ	_	_	5	mark	_	_
+3	emîr-i	emîr	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
+4	ger­miyân	ger­miyân	PROPN	_	Case=Nom|NameType=Nat|Number=Sing|Person=3	3	nmod	_	_
+5-6	evlâdındandur	_	_	_	_	_	_	_	_
+5	evlâdından	veled	NOUN	_	Case=Abl|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	1	ccomp	_	_
+6	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+
+# sent_id = 490
+# text = ḥikâyet iderler ki ol târîḫde semerḳandda bir medrese var imiş
+1	ḥikâyet	ḥikâyet	NOUN	_	_	2	compound:lvc	_	_
+2	iderler	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+3	ki	ki	SCONJ	_	_	9	mark	_	_
+4	ol	ol	DET	Demons	_	5	det	_	_
+5	târîḫde	târîḫ	NOUN	_	Case=Loc|Number=Sing|Person=3	9	obl:tmod	_	_
+6	semerḳandda	semerḳand	PROPN	Place	Case=Nom|NameType=Geo|Number=Sing|Person=3	9	obl	_	_
+7	bir	bir	DET	Indef	_	8	det	_	_
+8	medrese	medrese	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+9	var	var	NOUN	Exist	Number=Sing|Person=3|Polarity=Pos	2	ccomp	_	_
+10	imiş	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	9	cop	_	_
 
