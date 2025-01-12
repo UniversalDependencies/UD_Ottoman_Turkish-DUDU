@@ -4966,7 +4966,7 @@
 8	anuñ	o	PRON	Pers	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|PronType=Prs	12	ccomp	_	_
 9	dur	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 10	diyü	diyü	ADP	PCNom	_	8	mark	_	_
-11	ḥükm	ḥükm	NOUN	_	Case=Nom|Number=Sing|Person=3	10	compound:lvc	_	_
+11	ḥükm	ḥükm	NOUN	_	Case=Nom|Number=Sing|Person=3	12	compound:lvc	_	_
 12	ider	it	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = 486
