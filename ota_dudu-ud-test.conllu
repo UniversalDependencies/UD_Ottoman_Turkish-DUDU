@@ -5122,7 +5122,7 @@
 6	iḥtiyâcı	iḥtiyâc	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
 7-8	yoḳdur	_	_	_	_	_	_	_	_
 7	yoḳ	yoḳ	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
-8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_
+8	dur	i	AUX	Zero	Aspect=Perf|Mood=Gen|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
 
 # sent_id = 499
 # text = mıṣra gelüp mevâlîden şeyḫ ekmelden bir müddet tekmîl-i ʿilm idüp şirketle oḳurlar
