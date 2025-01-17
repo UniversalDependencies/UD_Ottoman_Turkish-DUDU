@@ -5761,14 +5761,14 @@
 
 # sent_id = 543
 # text = bâʿis̱ budur ki sulṭân u ḥâkime vâcibdür ki umûr-ı cumhûrı biʾz-ẕât göreler
-1	bâʿis̱	bâʿis̱	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nsubj	_	_
+1	bâʿis̱	bâʿis̱	NOUN	_	Case=Nom|Number=Sing|Person=3	2	nsubj	_	_
 2-3	budur	_	_	_	_	_	_	_	_
 2	bu	bu	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	0	root	_	_
-3	dur	y	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	10	cop	_	_
-4	ki	ki	SCONJ	_	_	7	mark	_	_
-5	sulṭân	sulṭân	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+3	dur	y	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	2	cop	_	_
+4	ki	ki	SCONJ	_	_	8	mark	_	_
+5	sulṭân	sulṭân	NOUN	_	Case=Nom|Number=Sing|Person=3	8	nsubj	_	_
 6	u	ve	CCONJ	_	_	7	cc	_	_
-7	ḥâkime	ḥâkime	NOUN	_	Case=Dat|Number=Sing|Person=3	4	conj	_	_
+7	ḥâkime	ḥâkime	NOUN	_	Case=Dat|Number=Sing|Person=3	5	conj	_	_
 8-9	vâcibdür	_	_	_	_	_	_	_	_
 8	vâcib	vâcib	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	ccomp	_	_
 9	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
@@ -5827,7 +5827,7 @@
 13	ḳırḳ	ḳırḳ	NUM	ANum	NumType=Card	14	nummod	_	_
 14	yıla	yıl	NOUN	_	Case=Dat|Number=Sing|Person=3	18	obl:tmod	_	_
 15	dek	dek	ADP	PCDat	_	14	case	_	_
-16	misk	misk	NOUN	_	Case=Nom|Number=Sing|Person=3	18	advmod	_	_
+16	misk	misk	NOUN	_	Case=Nom|Number=Sing|Person=3	18	obl	_	_
 17	gibi	gibi	ADP	PCNom	_	16	case	_	_
 18-19	ḳoḳardı	_	_	_	_	_	_	_	_
 18	ḳoḳar	ḳoḳ	VERB	Ptcp	Aspect=Hab|Polarity=Pos|VerbForm=Part	7	conj	_	_
