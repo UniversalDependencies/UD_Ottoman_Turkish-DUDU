@@ -1307,7 +1307,7 @@
 
 # sent_id = 111
 # text = ġayetle şedîdü’l-ḥarr zemînde vâḳiʿdür
-1	ġayetle	ġayet	NOUN	_	Case=Ins|Number=Sing|Person=3	6	advmod	_	_
+1	ġayetle	ġayetle	ADV	_	_	5	advmod	_	_
 2-3	şedîdü’l-ḥarr	_	_	_	_	_	_	_	_
 2	şedîd	şedîd	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	5	obl	_	_
 3	ü’l-ḥarr	ḥarr	ADJ	NAdj	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
@@ -1413,7 +1413,6 @@
 4-5	ḳocailindendür	_	_	_	_	_	_	_	_
 4	ḳocailinden	ḳocaili	PROPN	Place	Case=Abl|NameType=Geo|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
 5	dür	i	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
-
 
 # sent_id = 124
 # text = hemân vaḳtüñe ḥâżır olasun
@@ -5680,7 +5679,7 @@
 1	yaʿnî	yaʿnî	ADV	_	_	12	advmod	_	_
 2	ki	ki	SCONJ	_	_	1	mark	_	_
 3	vaḥşetleri	vaḥşet	NOUN	_	Case=Acc|Number=Plur|Person=3	4	nmod:poss	_	_
-4	muḳteżâsınca	muḳteżâ	NOUN	_	Case=Equ|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	advmod	_	_
+4	muḳteżâsınca	muḳteżâ	ADJ	_	Case=Equ|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	amod	_	_
 5	mübâʿade	mübâʿade	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 6	lâzım	lâzım	ADJ	Adj	_	12	advcl	_	_
 7	iken	i	AUX	Overt	Polarity=Pos|VerbForm=Conv	6	cop	_	_
@@ -5694,7 +5693,7 @@
 # text = baʿde-mâ bir ḫiṭâb-ı ilâhî daḫı vârid oldı ki yâ ibrâhîm istifsâr itdügüñ âs̱âr-i ḳudret ü ḥikmetimüzden bunlar bir ẕerredür ki müşâhede ḳılduñ
 1	baʿde-mâ	baʿde-mâ	ADV	_	_	7	advmod	_	_
 2	bir	bir	DET	Indef	_	3	det	_	_
-3	ḫiṭâb-ı	ḫiṭâb	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+3	ḫiṭâb-ı	ḫiṭâb	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
 4	ilâhî	ilâhî	ADJ	Adj	_	3	amod	_	_
 5	daḫı	daḫı	PART	Emph	_	3	advmod:emph	_	_
 6	vârid	vârid	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	compound:lvc	_	_
@@ -5768,7 +5767,7 @@
 3	dur	y	AUX	Zero	Mood=Imp|Number=Sing|Person=2|Polarity=Pos	10	cop	_	_
 4	ki	ki	SCONJ	_	_	7	mark	_	_
 5	sulṭân	sulṭân	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
-6	u	ve	CCONJ	_	_	6	cc	_	_
+6	u	ve	CCONJ	_	_	7	cc	_	_
 7	ḥâkime	ḥâkime	NOUN	_	Case=Dat|Number=Sing|Person=3	4	conj	_	_
 8-9	vâcibdür	_	_	_	_	_	_	_	_
 8	vâcib	vâcib	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	ccomp	_	_
@@ -5783,13 +5782,13 @@
 # text = ikinci dâʾimâ şâmdan mekkeye ki giderdi ḥażret-i ismaʿîlüñ ziyâreti ḫâṭırasın iderdi
 1	ikinci	ik	NUM	ANum	NumType=Ord	0	root	_	_
 2	dâʾimâ	dâʾimâ	ADV	_	_	6	advmod	_	_
-3	şâmdan	şâm	PROPN	Place	Case=Abl|NameType=Geo||Number=Sing|Person=3	4	nmod:poss	_	_
-4	mekkeye	mekke	PROPN	Place	Case=Dat|NameType=Geo||Number=Sing|Person=3	6	obl	_	_
+3	şâmdan	şâm	PROPN	Place	Case=Abl|NameType=Geo|Number=Sing|Person=3	4	nmod:poss	_	_
+4	mekkeye	mekke	PROPN	Place	Case=Dat|NameType=Geo|Number=Sing|Person=3	6	obl	_	_
 5	ki	ki	SCONJ	_	_	4	mark	_	_
 6-7	giderdi	_	_	_	_	_	_	_	_
 6	gider	git	VERB	Ptcp	Aspect=Hab|Polarity=Pos|VerbForm=Part	1	parataxis	_	_
 7	di	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	6	cop	_	_
-8	ḥażret-i	ḥażret	NOUN	_	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+8	ḥażret-i	ḥażret	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
 9	ismaʿîlüñ	ismaʿîl	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	8	nmod:poss	_	_
 10	ziyâreti	ziyâret	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod	_	_
 11	ḫâṭırasın	ḫâṭıra	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	compound:lvc	_	_
@@ -5825,10 +5824,10 @@
 10	ṣoñra	ṣoñra	ADP	PCAbl	_	9	case	_	_
 11	ol	ol	DET	Demons	_	12	det	_	_
 12	ḫâne	ḫâne	NOUN	_	Case=Nom|Number=Sing|Person=3	18	nsubj	_	_
-13	ḳırḳ	ḳırḳ	NUM	ANum	NumType=Card	13	nummod	_	_
+13	ḳırḳ	ḳırḳ	NUM	ANum	NumType=Card	14	nummod	_	_
 14	yıla	yıl	NOUN	_	Case=Dat|Number=Sing|Person=3	18	obl:tmod	_	_
 15	dek	dek	ADP	PCDat	_	14	case	_	_
-16	misk	misk	NOUN	_	Case=Nom|Number=Sing|Person=3	16	advmod	_	_
+16	misk	misk	NOUN	_	Case=Nom|Number=Sing|Person=3	18	advmod	_	_
 17	gibi	gibi	ADP	PCNom	_	16	case	_	_
 18-19	ḳoḳardı	_	_	_	_	_	_	_	_
 18	ḳoḳar	ḳoḳ	VERB	Ptcp	Aspect=Hab|Polarity=Pos|VerbForm=Part	7	conj	_	_
