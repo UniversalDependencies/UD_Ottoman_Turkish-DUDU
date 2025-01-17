@@ -1455,7 +1455,7 @@
 # sent_id = 129
 # text = ḥattâ kaʿbe-i şerîfe gelmiş
 1	ḥattâ	ḥattâ	ADV	_	_	4	advmod	_	_
-2	kaʿbe-i	kaʿbe	PROPN	Place	Case=Nom|NameType=Geo|Gender=Fem|Number=Sing|Person=3	4	obl	_	_
+2	kaʿbe-i	kaʿbe	PROPN	Place	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Person=3	4	obl	_	_
 3	şerîfe	şerîfe	ADJ	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	2	amod	_	_
 4	gelmiş	gel	VERB	_	Aspect=Perf|Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
@@ -5953,7 +5953,7 @@
 7	çeküp	çek	VERB	Conv	Polarity=Pos|VerbForm=Conv	14	advcl	_	_
 8	ol	ol	DET	Demons	_	10	det	_	_
 9	ṭuġât-ı	ṭâġî	NOUN	_	Case=Nom|Number=Plur|Person=3	12	nmod	_	_
-10	ḍalâlet-kirdârdan	ḍalâlet-kirdâr	NOUN	_	Case=Abl|Number=Sing|Person=3	10	nmod:poss	_	_
+10	ḍalâlet-kirdârdan	ḍalâlet-kirdâr	NOUN	_	Case=Abl|Number=Sing|Person=3	9	nmod:poss	_	_
 11	cüzʾî	cüzʾî	ADJ	_	_	12	amod	_	_
 12	kimesneyi	kimesne	NOUN	_	Case=Acc|Number=Sing|Person=3	14	obj	_	_
 13	îmâna	îmân	NOUN	_	Case=Dat|Number=Sing|Person=3	14	obl	_	_
@@ -5963,7 +5963,7 @@
 # text = ve kemâl-i ihtimâmla oḳ yarışup nişân gözedürlerdi
 1	ve	ve	CCONJ	_	_	7	cc	_	_
 2	kemâl-i	kemâl	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
-3	ihtimâmla	ihtimâm	NOUN	_	Case=NoInsm|Number=Sing|Person=3	2	nmod:poss	_	_
+3	ihtimâmla	ihtimâm	NOUN	_	Case=Ins|Number=Sing|Person=3	2	nmod:poss	_	_
 4	oḳ	oḳ	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5	yarışup	yarış	VERB	Conv	Polarity=Pos|VerbForm=Conv	7	advcl	_	_
 6	nişân	nişân	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
@@ -6016,7 +6016,7 @@
 25	gereksün	gerek	VERB	_	Mood=Imp|Number=Sing|Person=3|Polarity=Pos	26	ccomp	_	_
 26	didükleri	di	VERB	Conv	Polarity=Neg|VerbForm=Conv	35	advcl	_	_
 27	ḥînde	ḥînde	NOUN	Noun	Case=Loc|Number=Sing|Person=3	29	obl:tmod	_	_
-28	duʿâ	duʿâ	NOUN	_	Case=Nom|Number=Sing|Person=3	28	compound:lvc	_	_
+28	duʿâ	duʿâ	NOUN	_	Case=Nom|Number=Sing|Person=3	29	compound:lvc	_	_
 29	idüp	it	VERB	Conv	Polarity=Pos|VerbForm=Conv	35	advcl	_	_
 30	laṭîf	laṭîf	ADJ	Adj	_	31	amod	_	_
 31	mîveler	mîve	NOUN	_	Case=Nom|Number=Plur|Person=3	35	obj	_	_
@@ -6053,7 +6053,7 @@
 5	bulmadı	bul	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
 6	illâ	illâ	ADV	_	_	11	advmod	_	_
 7	bir	bir	DET	Indef	_	9	det	_	_
-8	ḳaç	ḳaç	DET	Det	_	7	fixed	_	_
+8	ḳaç	ḳaç	DET	Det	ExtPos=DET	7	fixed	_	_
 9	beyt	beyt	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nmod	_	_
 10	şiʿr	şiʿr	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
 11	eyitmegile	eyit	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	5	conj	_	_
@@ -6061,26 +6061,27 @@
 # sent_id = 562
 # text = bu aya daḫı anuñiçün aṣam didiler ki bu ayda ḳulaḳlar silâḥ âvâzın işitmezleridi ve ceng ve ḳıtâl olmazdı
 1	bu	bu	DET	Det	_	2	det	_	_
-2	aya	ay	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+2	aya	ay	NOUN	_	Case=Dat|Number=Sing|Person=3	7	obl	_	_
 3	daḫı	daḫı	PART	Emph	_	2	advmod:emph	_	_
 4-5	anuñiçün	_	_	_	_	_	_	_	_
-4	anuñ	o	PRON	Pers	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
+4	anuñ	o	PRON	Pers	Case=Gen|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 5	içün	için	ADP	PCNom	_	4	case	_	_
-5	aṣam	aṣam	ADJ	Adj	_	6	obj	_	_
-6	didiler	di	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
-7	ki	ki	SCONJ	_	_	13	mark	_	_
-8	bu	bu	DET	Demons	_	9	det	_	_
-9	ayda	ay	NOUN	_	Case=Loc|Number=Sing|Person=3	13	obl:tmod	_	_
-10	ḳulaḳlar	ḳulaḳ	NOUN	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
-11	silâḥ	silâḥ	NOUN	_	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
-12	âvâzın	âvâz	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
-13-14	işitmezleridi	_	_	_	_	_	_	_	_
-13	işitmezler	işit	VERB	Ptcp	Aspect=Hab|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	6	ccomp	_	_
-14	idi	y	AUX	Overt	Aspect=Perf|Evident=Fh|Polarity=Pos|Tense=Past	13	cop	_	_
-15	ve	ve	CCONJ	_	_	19	cc	_	_
-16	ceng	ceng	NOUN	_	Case=Nom|Number=Sing|Person=3	19	compound:lvc	_	_
-17	ve	ve	CCONJ	_	_	18	cc	_	_
-18	ḳıtâl	ḳıtâl	NOUN	_	Case=Nom|Number=Sing|Person=3	16	conj	_	_
-19	olmazdı	ol	VERB	Ptcp	Aspect=Hab|Polarity=Neg|VerbForm=Part	13	conj	_	_
-20	dı	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	19	cop	_	_
+6	aṣam	aṣam	ADJ	Adj	_	7	obj	_	_
+7	didiler	di	VERB	_	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+8	ki	ki	SCONJ	_	_	14	mark	_	_
+9	bu	bu	DET	Demons	_	10	det	_	_
+10	ayda	ay	NOUN	_	Case=Loc|Number=Sing|Person=3	14	obl:tmod	_	_
+11	ḳulaḳlar	ḳulaḳ	NOUN	_	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+12	silâḥ	silâḥ	NOUN	_	Case=Nom|Number=Sing|Person=3	13	nmod	_	_
+13	âvâzın	âvâz	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
+14-15	işitmezleridi	_	_	_	_	_	_	_	_
+14	işitmezler	işit	VERB	Ptcp	Aspect=Hab|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part	7	ccomp	_	_
+15	idi	y	AUX	Overt	Aspect=Perf|Evident=Fh|Polarity=Pos|Tense=Past	14	cop	_	_
+16	ve	ve	CCONJ	_	_	20	cc	_	_
+17	ceng	ceng	NOUN	_	Case=Nom|Number=Sing|Person=3	20	compound:lvc	_	_
+18	ve	ve	CCONJ	_	_	19	cc	_	_
+19	ḳıtâl	ḳıtâl	NOUN	_	Case=Nom|Number=Sing|Person=3	17	conj	_	_
+20-21	olmazdı	_	_	_	_	_	_	_	_
+20	olmaz	ol	VERB	Ptcp	Aspect=Hab|Polarity=Neg|VerbForm=Part	14	conj	_	_
+21	dı	y	AUX	Zero	Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	20	cop	_	_
 
