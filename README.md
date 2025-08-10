@@ -5,7 +5,7 @@ An Ottoman Turkish dependency treebank annotated in UD style. Created by Enes YÄ
 
 # Introduction
 
-This project comprises 1,402 sentences that are first automatically annotated via Machamp (Van der Goot et al., 2021). During the training phase, multiple modern Turkish UD treebanks were used and then manually corrected in a systematic way. Randomly shuffled sentences were written between the 14th and 20th centuries in various genres
+This project comprises 1,500 sentences that are first automatically annotated via Machamp (Van der Goot et al., 2021). During the training phase, multiple modern Turkish UD treebanks were used and then manually corrected in a systematic way. Randomly shuffled sentences were written between the 14th and 20th centuries in various genres
 such as fiction, news, articles, registry records, and religious preaching. Unfortunately, the genres can not be told apart by sentence IDs for this version. The order of the sentences is chronology-based rather than genre-based; the earliest written sentence is at the top.
 In this treebank, [Ottoman Turkish transcription alphabet](https://en.wikipedia.org/wiki/Ottoman_Turkish_alphabet) is used.
 Please cite [this paper](https://aclanthology.org/2025.resourceful-1.16/).
