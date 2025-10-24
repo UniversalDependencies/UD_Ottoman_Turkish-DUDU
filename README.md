@@ -28,6 +28,7 @@ I am immensely grateful to Fatma Elcan for her tremendous help in providing me w
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: cairo
 Genre: news fiction nonfiction poetry
 Lemmas: manual native
 UPOS: manual native
