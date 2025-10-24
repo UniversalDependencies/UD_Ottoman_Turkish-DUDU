@@ -1,4 +1,4 @@
-# sent_id = 1
+# sent_id = ccc_1
 # text_en = The girl wrote a letter to her friend.
 # text = ḳız dôstuna bir mektûb yazdı
 1	ḳız	ḳız	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
@@ -7,7 +7,7 @@
 4	mektûb	mektûb	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
 5	yazdı	yaz	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
-# sent_id = 2
+# sent_id = ccc_2
 # text_en = I think that it is raining.
 # text = baña göre bârân yaġıyor
 1	baña	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
@@ -15,7 +15,7 @@
 3	bârân	bârân	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 4	yaġıyor	yaġ	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	compound	_	_
 
-# sent_id = 3
+# sent_id = ccc_3
 # text_en = He tried to stop smoking and drinking.
 # text = siġara ve içki içmegi terk etmege çalışdı
 1	siġara	siġara	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obj	_	_
@@ -26,28 +26,28 @@
 6	etmege	et	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	5	compound:lvc	_	_
 7	çalışdı	çalış	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
-# sent_id = 4
+# sent_id = ccc_4
 # text_en = Do you want to go?
 # text = gitmek ister misin
 1	gitmek	git	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	2	ccomp	_	_
 2	ister	iste	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	misin	mi	AUX	Overt	Aspect=Imp|Number=Sing|Person=2|Tense=Pres	2	discourse	_	_
 
-# sent_id = 5
+# sent_id = ccc_5
 # text_en = Sam, open the window!
 # text = sâm pencereyi aç
 1	sâm	sâm	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	vocative	_	_
 2	pencereyi	pencere	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
 3	aç	aç	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
 
-# sent_id = 6
+# sent_id = ccc_6
 # text_en = She made her husband wash the car.
 # text = ḳocasına arabayı yıḳatdı
 1	ḳocasına	ḳoca	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 2	arabayı	araba	NOUN	_	Case=Acc|Number=Sing|Person=3	3	obj	_	_
 3	yıḳatdı	yıḳat	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
-# sent_id = 7
+# sent_id = ccc_7
 # text_en = Peter’s neighbor painted the fence red.
 # text = pîṭerin ḳomşusu çiti aḥmere boyadı
 1	pîṭerin	pîṭer	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	2	nmod:poss	_	_
@@ -56,7 +56,7 @@
 4	aḥmere	aḥmer	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	5	obl	_	_
 5	boyadı	boya	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
-# sent_id = 8
+# sent_id = ccc_8
 # text_en = My dad is cooler than yours.
 # text = benim pederim seninkinden aʿlâdur
 1	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
@@ -66,7 +66,7 @@
 4	aʿlâ	aʿlâ	ADJ	Adj	_	0	root	_	_
 5	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
 
-# sent_id = 9
+# sent_id = ccc_9
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 # text = merî bronz pîṭer sîm ceyn ise zer ḳazandı
 1	merî	merî	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	8	nsubj	_	_
@@ -78,7 +78,7 @@
 7	zer	zer	NOUN	_	Case=Nom|Number=Sing|Person=3	2	conj	_	_
 8	ḳazandı	ḳazan	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
-# sent_id = 10
+# sent_id = ccc_10
 # text_en = Is Iguazu a big or a small country?
 # text = iġvâzû büyük bir memleket midir yoḫsa küçük müdür
 1	iġvâzû	iġvâzû	PROPN	Place	Case=Nom|NameType=Geo|Number=Sing|Person=3	4	nsubj	_	_
@@ -90,7 +90,7 @@
 7	küçük	küçük	ADJ	Adj	_	2	conj	_	_
 8	müdür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse	_	_
 
-# sent_id = 11
+# sent_id = ccc_11
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 # text = ne pîṭer smîṭ ne de merî braun münteḫab olabildi
 1	ne	ne	CCONJ	Ques	_	2	cc:preconj	_	_
@@ -103,27 +103,28 @@
 8	münteḫab	münteḫab	ADJ	_	_	0	root	_	_
 9	olabildi	ol	VERB	_	Aspect=Perf|Evident=Fh|Mood=Pot|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	8	compound:lvc	_	_
 
-# sent_id = 12
+# sent_id = ccc_12
 # text_en = They have no idea who wrote it.
-# text = onu kimin yazdıġına dâir hîçbir maʿlûmâtları yoḳdur
+# text = onu kimin yazdıġına dâir hîç bir maʿlûmâtları yoḳdur
 1	onu	o	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	3	obj	_	_
 2	kimin	kim	PRON	Quant	Case=Gen|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
-3	yazdıġına	yaz	VERB	Ptcp	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|VerbForm=Part	7	ccomp	_	_
+3	yazdıġına	yaz	VERB	Ptcp	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|VerbForm=Part	8	ccomp	_	_
 4	dâir	dâir	ADP	PCNom	_	3	case	_	_
-5	hîçbir	hîçbir	DET	Indef	_	6	amod	_	_
-6	maʿlûmâtları	maʿlûmât	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	7	nsubj	_	_
-7-8	yoḳdur	_	_	_	_	_	_	_	_
-7	yoḳ	yoḳ	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
-8	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	7	cop	_	_
+5	hîç	hîç	ADJ	Adj	_	7	amod	_	_
+6	bir	bir	DET	Indef	Definite=Ind|PronType=Art	7	det	_	_
+7	maʿlûmâtları	maʿlûmât	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	8	nsubj	_	_
+8-9	yoḳdur	_	_	_	_	_	_	_	_
+8	yoḳ	yoḳ	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
+9	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 
-# sent_id = 13
+# sent_id = ccc_13
 # text_en = What are you looking at?
 # text = neye naẓar ediyorsun
 1	neye	ne	PRON	Ques	Case=Dat|Number=Sing|Person=3|PronType=Int	2	obl	_	_
 2	naẓar	naẓar	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 3	ediyorsun	et	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	compound	_	_
 
-# sent_id = 14
+# sent_id = ccc_14
 # text_en = When do you think you can come?
 # text = ne vaḳt gelebilecegini düşünüyorsun
 1	ne	ne	DET	Ques	Definite=Def|PronType=Art	2	det	_	_
@@ -131,7 +132,7 @@
 3	gelebilecegini	gel	VERB	Ptcp	Aspect=Prosp|Case=Acc|Mood=Pot|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	4	ccomp	_	_
 4	düşünüyorsun	düşün	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
-# sent_id = 15
+# sent_id = ccc_15
 # text_en = He bought a car but his brother just a bike.
 # text = kendüsi bir araba aldı ammâ birâderi yalñız bir bisiklet aldı
 1	kendüsi	kendü	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs|Reflex=Yes	4	nsubj	_	_
@@ -145,7 +146,7 @@
 9	bisiklet	bisiklet	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
 10	aldı	al	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	conj	_	_
 
-# sent_id = 16
+# sent_id = ccc_16
 # text_en = Peter and Mary hugged each other and then left the room.
 # text = pîṭer ile merî birbirini ḳucaḳladılar ve sonra odadan çıḳdılar
 1	pîṭer	pîṭer	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	5	obl	_	_
@@ -158,7 +159,7 @@
 8	odadan	oda	NOUN	_	Case=Abl|Number=Sing|Person=3	9	obl	_	_
 9	çıḳdılar	çıḳ	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	conj	_	_
 
-# sent_id = 17
+# sent_id = ccc_17
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 # text = saçını yapmalı idi lâkin o gün bir sebebden ötürü yapmadı
 1	saçını	saç	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	2	obj	_	_
@@ -172,7 +173,7 @@
 9	ötürü	ötürü	ADP	PCNom	_	8	case	_	_
 10	yapmadı	yap	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	2	conj	_	_
 
-# sent_id = 18
+# sent_id = ccc_18
 # text_en = I wasn't able to keep up, because he ran too fast.
 # text = yetişemedim zîrâ ġâyet sürʿatle ḳoşdu
 1	yetişemedim	yetiş	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -181,7 +182,7 @@
 4	sürʿatle	sürʿat	NOUN	_	Case=Ins|Number=Sing|Person=3	5	obl	_	_
 5	ḳoşdu	ḳoş	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	1	conj	_	_
 
-# sent_id = 19
+# sent_id = ccc_19
 # text_en = This letter is from Peter and it was delivered yesterday.
 # text = bu mektûb pîṭerdendir ve dün tevdîʿ olundu
 1	bu	bu	DET	Demons	Definite=Def|PronType=Art	2	det	_	_
@@ -194,7 +195,7 @@
 7	tevdîʿ	tevdîʿ	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 8	olundu	ol	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Pass	7	compound:lvc	_	_
 
-# sent_id = 20
+# sent_id = ccc_20
 # text_en = She grew up in Paris, the capital of France.
 # text = fransanın payitaḫtı pârîsde neşv ü nemâ buldu
 1	fransanın	fransa	PROPN	Place	Case=Gen|NameType=Geo|Number=Sing|Person=3	2	nmod:poss	_	_
