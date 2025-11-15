@@ -6443,8 +6443,8 @@
 
 # sent_id = 576
 # text = gözi gözine râst gelenler elbette şaşar
-1	gözi	göz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
-2	gözine	göz	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+1	gözi	göz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+2	gözine	göz	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
 3	râst	râst	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 4	gelenler	gel	VERB	Ptcp	Case=Nom|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Part	3	compound	_	_
 5	elbette	elbette	ADV	_	_	6	advmod	_	_
