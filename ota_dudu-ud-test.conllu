@@ -1766,7 +1766,7 @@
 2	bunı	bu	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	4	obj	_	_
 3	diri	diri	ADJ	Adj	_	4	amod	_	_
 4	ḳoyacaḳ	ḳoy	VERB	Ptcp	Aspect=Prosp|Polarity=Pos|Tense=Fut|VerbForm=Part	0	root	_	_
-5	degülin	degül	AUX	Overt	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	4	aux	_	_
+5	degülin	degül	AUX	Overt	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	4	aux	_	_
 
 # sent_id = 165
 # text = imdi siz atın ve ḳılıcın ve geyecegin aluñ
@@ -4741,7 +4741,7 @@
 2	anasına	ana	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	sittāh	sittāh	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	parataxis	_	_
+5	sittāh	sittāh	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	vocative	_	_
 6	nedür	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	3	ccomp	_	nullcop=3s
 7	ḥālüñ	ḥāl	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
 
@@ -7566,7 +7566,7 @@
 2	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 3	āmīn	āmīn	INTJ	_	_	5	discourse	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	sittāh	sittāh	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	2	ccomp	_	_
+5	sittāh	sittāh	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	2	vocative	_	_
 
 # sent_id = 651
 # text = andan ṣoñra ʿanter bunlardan çıḳıp ve göñli şād olup gitdi ve bunuñ ḥāli ve ḳıṣṣaları ve ʿable ḥaḳḳında eyitdügi ebyāt ve eşʿār ʿālemde münteşir oldı
@@ -14997,7 +14997,7 @@
 2	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 3	evet	evet	INTJ	_	_	5	discourse	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	2	ccomp	_	_
+5	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	2	vocative	_	_
 
 # sent_id = 1093
 # text = nemrūd eydür ibrāhīm kimdür
@@ -17153,6 +17153,180 @@
 14	mürācaʿat	mürācaʿat	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	0	root	_	_
 15	ḳıldı	ḳıl	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	14	compound:lvc	_	_
 
+# sent_id = bible-1258
+# text = bu kez ṭaġdan indigi zemān nice cemʿiyyetler anuñ ardınca gitdiler
+1	bu	bu	DET	Demons	Definite=Def|PronType=Art	2	det	_	_
+2	kez	kez	NOUN	_	Case=Nom|Number=Sing|Person=3	4	obl:tmod	_	_
+3	ṭaġdan	ṭaġ	NOUN	_	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+4	indigi	in	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+5	zemān	zemān	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obl:tmod	_	_
+6	nice	nice	ADJ	Adj	_	7	amod	_	_
+7	cemʿiyyetler	cemʿiyyet	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Person=3	10	nsubj	_	_
+8	anuñ	o	PRON	Pers	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	_
+9	ardınca	ard	NOUN	_	Case=Equ|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+10	gitdiler	git	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = bible-1259
+# text = ve işte bir cüẕām gelüb aña secde eyledi ve dedi ki yā rabb isterseñ beni arıtmaġa ḳādirsin
+1	ve	ve	CCONJ	_	_	7	cc	_	_
+2	işte	işte	ADV	_	_	7	advmod	_	_
+3	bir	bir	DET	Indef	Definite=Ind|PronType=Art	4	det	_	_
+4	cüẕām	cüẕām	NOUN	_	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+5	gelüb	gel	VERB	Conv	Polarity=Pos|VerbForm=Conv	7	advcl	_	_
+6	aña	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+7	secde	secde	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+8	eyledi	eyle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	compound:lvc	_	_
+9	ve	ve	CCONJ	_	_	10	cc	_	_
+10	dedi	de	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	7	conj	_	_
+11	ki	ki	SCONJ	_	_	17	mark	_	_
+12	yā	yā	INTJ	_	_	13	discourse	_	_
+13	rabb	rabb	NOUN	_	Case=Nom|Number=Sing|Person=3	17	vocative	_	_
+14	isterseñ	iste	VERB	_	Aspect=Hab|Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+15	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+16	arıtmaġa	arıt	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	17	ccomp	_	_
+17-18	ḳādirsin	_	_	_	_	_	_	_	_
+17	ḳādir	ḳādir	ADJ	Adj	_	10	ccomp	_	_
+18	sin	y	AUX	Zero	Number=Sing|Person=1|Polarity=Pos|Tense=Pres	17	cop	_	_
+
+# sent_id = bible-1260
+# text = andan kefernaḥūma girdigi zemān bir yüzbaşı gelüb aña yalvardı ve dedi ki yā rabb benim oġlanım evde meflūcdur pek derd çeküb yatıyor
+1	andan	andan	ADV	Pers	_	3	advmod	_	_
+2	kefernaḥūma	kefernaḥūm	PROPN	Place	Case=Dat|NameType=Geo|Number=Sing|Person=3	3	obl	_	_
+3	girdigi	gir	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+4	zemān	zemān	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl:tmod	_	_
+5	bir	bir	NUM	ANum	NumType=Card	6	nummod	_	_
+6	yüzbaşı	yüzbaşı	NOUN	_	Case=Nom|Number=Sing|Person=3	7	nsubj	_	_
+7	gelüb	gel	VERB	Conv	Polarity=Pos|VerbForm=Conv	9	advcl	_	_
+8	aña	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+9	yalvardı	yalvar	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+10	ve	ve	CCONJ	_	_	11	cc	_	_
+11	dedi	de	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	conj	_	_
+12	ki	ki	SCONJ	_	_	18	mark	_	_
+13	yā	yā	INTJ	_	_	14	discourse	_	_
+14	rabb	rabb	PROPN	_	Case=Nom|Number=Sing|Person=3	18	vocative	_	_
+15	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	16	nmod:poss	_	_
+16	oġlanım	oġlan	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	18	nsubj	_	_
+17	evde	ev	NOUN	_	Case=Loc|Number=Sing|Person=3	18	obl	_	_
+18-19	meflūcdur	_	_	_	_	_	_	_	_
+18	meflūcdur	meflūc	ADJ	Adj	_	11	ccomp	_	_
+19	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	18	cop	_	_
+20	pek	pek	ADJ	Adj	_	21	amod	_	_
+21	derd	derd	NOUN	_	Case=Nom|Number=Sing|Person=3	23	advcl	_	_
+22	çeküb	çek	VERB	Conv	Polarity=Pos|VerbForm=Conv	21	compound	_	_
+23	yatıyor	yat	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	18	conj	_	_
+
+# sent_id = bible-1261
+# text = ḳalbiñiz mużṭarib olmasun siz allāha īmān getürdiñiz baña da īmān getürüñ
+1	ḳalbiñiz	ḳalb	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	2	nsubj	_	_
+2	mużṭarib	mużṭarib	ADJ	Adj	_	0	root	_	_
+3	olmasun	ol	VERB	_	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin	2	compound:lvc	_	_
+4	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+5	allāha	allāh	PROPN	_	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+6	īmān	īmān	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	getürdiñiz	getür	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	2	conj	_	_
+8	baña	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+9	da	da	PART	Emph	_	8	advmod:emph	_	_
+10	īmān	īmān	NOUN	_	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+11	getürüñ	getür	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	_
+
+# sent_id = bible-1262
+# text = artıḳ siz benim size söyledügüm kelām ile pāksıñız
+1	artıḳ	artıḳ	ADV	_	_	8	advmod	_	_
+2	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
+3	benim	ben	PRON	Pers	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	obl	_	_
+5	söyledügüm	söyle	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	6	acl	_	_
+6	kelām	kelām	NOUN	_	Case=Nom|Number=Sing|Person=3	8	obl	_	_
+7	ile	ile	CCONJ	_	_	6	case	_	_
+8-9	pāksıñız	_	_	_	_	_	_	_	_
+8	pāk	pāk	ADJ	Adj	_	0	root	_	_
+9	sıñız	y	AUX	Zero	Number=Plur|Person=2|Polarity=Pos|Tense=Pres	8	cop	_	_
+
+# sent_id = bible-1263
+# text = eger ben gitmezsem mu‘azzī size gelmeye ve eger gidersem ben anı size gönderirim
+1	eger	eger	CCONJ	_	_	3	cc	_	_
+2	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	gitmezsem	git	VERB	_	Aspect=Perf|Mood=Cnd|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	mu‘azzī	mu‘azzī	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
+5	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2|PronType=Prs	6	obl	_	_
+6	gelmeye	gel	VERB	_	Mood=Opt|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
+7	ve	ve	CCONJ	_	_	13	cc	_	_
+8	eger	eger	CCONJ	_	_	9	cc	_	_
+9	gidersem	git	VERB	_	Aspect=Perf|Mood=Cnd|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+10	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	anı	o	PRON	Demons	Case=Acc|Number=Sing|Person=3|PronType=Dem	13	obj	_	_
+12	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2|PronType=Prs	13	obl	_	_
+13	gönderirim	gönder	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	6	conj	_	_
+
+# sent_id = bible-1264
+# text = ol daḫī geldügi zemān dünyāyı günāh ve birr ve ḥükm içün ilzām eyleye
+1	ol	ol	PRON	Demons	Case=Nom|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
+2	daḫī	daḫī	PART	Emph	_	1	advmod:emph	_	_
+3	geldügi	gel	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+4	zemān	zemān	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl:tmod	_	_
+5	dünyāyı	dünyā	NOUN	_	Case=Acc|Number=Sing|Person=3	12	obj	_	_
+6	günāh	günāh	NOUN	_	Case=Nom|Number=Sing|Person=3	12	obl	_	_
+7	ve	ve	CCONJ	_	_	8	cc	_	_
+8	birr	birr	NOUN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
+9	ve	ve	CCONJ	_	_	10	cc	_	_
+10	ḥükm	ḥükm	NOUN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
+11	içün	içün	ADP	PCNom	_	10	case	_	_
+12	ilzām	ilzām	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+13	eyleye	eyle	VERB	_	Mood=Opt|Number=Sing|Person=3|Polarity=Pos|VerbForm=Fin	12	compound:lvc	_	_
+
+# sent_id = bible-1265
+# text = günāh içün zīrā baña īmān getürmezler
+1	günāh	günāh	NOUN	_	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+2	içün	içün	ADP	PCNom	_	1	case	_	_
+3	zīrā	zīrā	ADV	_	_	5	advmod	_	_
+4	baña	ben	PRON	Pers	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	īmān	īmān	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
+6	getürmezler	getür	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	5	compound	_	_
+
+# sent_id = bible-1266
+# text = birr içün zīrā ben bābāma giderim ve siz beni artıḳ görmeyesiz
+1	birr	birr	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+2	içün	içün	ADP	PCNom	_	1	case	_	_
+3	zīrā	zīrā	ADV	_	_	6	advmod	_	_
+4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	bābāma	bābā	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	6	obl	_	_
+6	giderim	git	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ve	ve	CCONJ	_	_	11	cc	_	_
+8	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	_
+9	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+10	artıḳ	artıḳ	ADV	_	_	11	advmod	_	_
+11	görmeyesiz	gör	VERB	_	Mood=Opt|Number=Plur|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	conj	_	_
+
+# sent_id = bible-1267
+# text = ve ḥükm içün zīrā bu dünyānıñ sulṭānı artıḳ müdān olmışdır
+1	ve	ve	CCONJ	_	_	9	cc	_	_
+2	ḥükm	ḥükm	NOUN	_	Case=Nom|Number=Sing|Person=3	9	obl	_	_
+3	içün	içün	ADP	PCNom	_	2	case	_	_
+4	zīrā	zīrā	ADV	_	_	9	advmod	_	_
+5	bu	bu	DET	Demons	Definite=Def|PronType=Art	6	det	_	_
+6	dünyānıñ	dünyā	NOUN	_	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
+7	sulṭānı	sulṭān	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
+8	artıḳ	artıḳ	ADV	_	_	9	advmod	_	_
+9	müdān	müdān	ADJ	Adj	_	0	root	_	_
+10	olmışdır	ol	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	compound:lvc	_	_
+
+# sent_id = bible-1268
+# text = size daḫī söyleyecegim çoḳdur ammā siz ḥālā anları taḥammül etmege ḳādir degilsiñiz
+1	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2|PronType=Prs	3	obl	_	_
+2	daḫī	daḫī	PART	Emph	_	1	advmod:emph	_	_
+3	söyleyecegim	söyle	VERB	Ptcp	Aspect=Prosp|Number=Sing|Person=1|Polarity=Pos|VerbForm=Part	4	csubj	_	_
+4-5	çoḳdur	_	_	_	_	_	_	_	_
+4	çoḳ	çoḳ	ADJ	Adj	_	0	root	_	_
+5	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	4	cop	_	_
+6	ammā	ammā	CCONJ	_	_	12	cc	_	_
+7	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
+8	ḥālā	ḥālā	ADV	_	_	12	advmod	_	_
+9	anları	o	PRON	Demons	Case=Acc|Number=Plur|Person=3|PronType=Dem	10	obj	_	_
+10	taḥammül	taḥammül	NOUN	_	Case=Nom|Number=Sing|Person=3	12	ccomp	_	_
+11	etmege	et	VERB	Vnoun	Case=Dat|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	10	compound:lvc	_	_
+12	ḳādir	ḳādir	ADJ	Adj	_	4	conj	_	_
+13	degilsiñiz	degil	AUX	Overt	Number=Plur|Person=2|Polarity=Neg|Tense=Pres	12	aux	_	_
+
 # sent_id = kan_1
 # text = ol meclislere münāsib ebyātın inşād itmişdi
 1	ol	ol	DET	Demons	Definite=Def|PronType=Art	2	det	_	_
@@ -18443,7 +18617,7 @@
 5	geldi	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ki	ki	SCONJ	_	_	8	mark	_	_
 7	yā	yā	INTJ	_	_	8	discourse	_	_
-8	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	5	ccomp	_	_
+8	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	5	vocative	_	_
 
 # sent_id = kan_199
 # text = seni maġrūr itmesün ḳaṣruñuñ ḥüsni
@@ -18487,7 +18661,7 @@
 7	geldi	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 8	ki	ki	SCONJ	_	_	10	mark	_	_
 9	yā	yā	INTJ	_	_	10	discourse	_	_
-10	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	7	ccomp	_	_
+10	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	7	vocative	_	_
 
 # sent_id = kan_229
 # text = eger aña ve anuñ rabbine īmān getürmezsen allāh teʿālā saña anı nebī göndürür
@@ -18542,7 +18716,7 @@
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	2	conj	_	_
 4	veyleke	veyleke	INTJ	_	_	6	discourse	_	_
 5	yā	yā	INTJ	_	_	6	discourse	_	_
-6	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	3	ccomp	_	_
+6	nemrūd	nemrūd	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	3	vocative	_	_
 
 # sent_id = kan_236
 # text = nemrūd bir ṣaʿb emre uġradı ki vaṣf olunmaz
@@ -18620,7 +18794,7 @@
 15	oldı	ol	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	9	parataxis	_	_
 16	eyitdiler	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	15	conj	_	_
 17	yā	yā	INTJ	_	_	18	discourse	_	_
-18	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	16	ccomp	_	_
+18	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	16	vocative	_	_
 
 # sent_id = kan_243
 # text = şöyle ki baḳmaġa gözler ḳamaşur
@@ -18837,7 +19011,7 @@
 5	işitdi	işit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ki	ki	SCONJ	_	_	8	mark	_	_
 7	yā	yā	INTJ	_	_	8	discourse	_	_
-8	āẕer	āẕer	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	5	ccomp	_	_
+8	āẕer	āẕer	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	5	vocative	_	_
 
 # sent_id = kan_281
 # text = nā-gāh gördi bir melek āẕere eydür yā āẕer
@@ -18848,7 +19022,7 @@
 5	āẕere	āẕer	PROPN	Pers	Case=Dat|NameType=Prs|Number=Sing|Person=3	6	obl	_	_
 6	eydür	ey	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	yā	yā	INTJ	_	_	8	discourse	_	_
-8	āẕer	āẕer	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	ccomp	_	_
+8	āẕer	āẕer	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	vocative	_	_
 
 # sent_id = kan_283
 # text = ḫavf ü fezaʿ ile ʿavretiyile yatdı
@@ -19071,7 +19245,7 @@
 3	virip	vir	VERB	Conv	Polarity=Pos|VerbForm=Conv	2	compound	_	_
 4	eyitdiler	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 5	yā	yā	INTJ	_	_	6	discourse	_	_
-6	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	ccomp	_	_
+6	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	4	vocative	_	_
 
 # sent_id = kan_315
 # text = saña ve ehl-i memleketüñe andan ḳorḳu var
@@ -19631,7 +19805,7 @@
 5	geldi	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ki	ki	SCONJ	_	_	8	mark	_	_
 7	yā	yā	INTJ	_	_	8	discourse	_	_
-8	melʿūn	melʿūn	PROPN	_	Case=Nom|Number=Sing|Person=3	5	ccomp	_	_
+8	melʿūn	melʿūn	PROPN	_	Case=Nom|Number=Sing|Person=3	5	vocative	_	_
 
 # sent_id = kan_376
 # text = ben anı senden ḥıfẓ iderin
@@ -19674,7 +19848,7 @@
 2	ḫātūnı	ḫātūn	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	nsubj	_	_
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	nebīyyallāh	nebīyyallāh	NOUN	_	Case=Nom|Number=Sing|Person=3	3	ccomp	_	_
+5	nebīyyallāh	nebīyyallāh	NOUN	_	Case=Nom|Number=Sing|Person=3	3	vocative	_	_
 
 # sent_id = kan_1010
 # text = ibrāhīm peyġām-ber daḫı indi bir zamān rāḥat oldı
@@ -20136,7 +20310,7 @@
 2	ʿavret	ʿavret	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	mevlāye	mevlāye	PROPN	_	Case=Dat|Number=Sing|Person=3	3	ccomp	_	_
+5	mevlāye	mevlāye	PROPN	_	Case=Dat|Number=Sing|Person=3	3	vocative	_	_
 
 # sent_id = kan_1121
 # text = ol ḳuzuyı güden çōbānı ḳıġırdı eyitdi ki fülān günde getürdügüñ ḳuzınuñ ḥāli nedür eyitdi ki yā emīr
@@ -20156,7 +20330,7 @@
 14	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	conj	_	_
 15	ki	ki	SCONJ	_	_	17	mark	_	_
 16	yā	yā	INTJ	_	_	17	discourse	_	_
-17	emīr	emīr	NOUN	_	Case=Nom|Number=Sing|Person=3	14	ccomp	_	_
+17	emīr	emīr	NOUN	_	Case=Nom|Number=Sing|Person=3	14	vocative	_	_
 
 # sent_id = kan_1123
 # text = ol ḳuzuyı ol ḳancıġa ögretdüm
@@ -20405,7 +20579,7 @@
 5	idüp	it	VERB	Conv	Polarity=Pos|VerbForm=Conv	4	compound:lvc	_	_
 6	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 7	yā	yā	INTJ	_	_	8	discourse	_	_
-8	züheyr	züheyr	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	ccomp	_	_
+8	züheyr	züheyr	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	6	vocative	_	_
 
 # sent_id = kan_1227
 # text = bu fikrüñde aṣlā ḫayr yoḳdur
@@ -21873,7 +22047,7 @@
 2	mū-bedān	mū-bedān	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	nsubj	_	_
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	seyyidī	seyyidī	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	ccomp	_	_
+5	seyyidī	seyyidī	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	3	vocative	_	_
 
 # sent_id = kan_15407
 # text = depeledügümüz ʿacemüñ rızḳın ve raḫtın saña virelüm didi
@@ -21991,7 +22165,7 @@
 13	ve	ve	CCONJ	_	_	14	cc	_	_
 14	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	12	conj	_	_
 15	yā	yā	INTJ	_	_	16	discourse	_	_
-16	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	14	ccomp	_	_
+16	melik	melik	NOUN	_	Case=Nom|Number=Sing|Person=3	14	vocative	_	_
 
 # sent_id = kan_15558
 # text = varup yine atamuñ yüzine bu rüsvāylıġıla baḳmazın didi ve ʿādetleri üzere muḥkem andlar içdi ve mübālaġalar itdi
@@ -22199,7 +22373,7 @@
 2	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 3	belī	belī	INTJ	_	_	5	discourse	_	_
 4	yā	yā	INTJ	_	_	5	discourse	_	_
-5	veledī	veledī	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	2	ccomp	_	_
+5	veledī	veledī	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	2	vocative	_	_
 
 # sent_id = kan_9916
 # text = senüñ sözüñe ben iʿtimād iderin didi
