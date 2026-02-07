@@ -80,7 +80,7 @@
 5	bir	bir	DET	Indef	Definite=Ind|PronType=Art	6	det	_	_
 6	ḳuzıcaġı	ḳuzucuḳ	NOUN	_	Case=Acc|Number=Sing|Person=3	7	nsubj	_	_
 7	olmaz	ol	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
-8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse	_	_
+8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
 9	olur	ol	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = 9
@@ -987,7 +987,7 @@
 8	vücūdundan	vücūd	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 9	bilmem	bil	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	10	discourse	_	_
 10	ḫaberdār	ḫaberdār	ADJ	Adj	_	0	root	_	_
-11	mısınız	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	10	discourse	_	SpaceAfter=No
+11	mısınız	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	10	aux:q	_	SpaceAfter=No
 12	?	?	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 77
@@ -1819,7 +1819,7 @@
 # sent_id = 171
 # text = āzād mı iderler
 1	āzād	āzād	ADJ	Adj	_	0	root	_	_
-2	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	discourse	_	_
+2	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	1	aux:q	_	_
 3	iderler	it	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	compound:lvc	_	_
 
 # sent_id = 172
@@ -2030,7 +2030,7 @@
 1	ḫaberüñ	ḫaber	NOUN	_	Case=Gen|Number=Sing|Person=3	3	nsubj	_	_
 2	bārī	bārī	ADV	_	_	3	advmod	_	_
 3	ḫayr	ḫayr	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
-4	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	discourse	_	_
+4	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
 
 # sent_id = 206
 # text = bir zamāndan ṣoñra bildi
@@ -4832,9 +4832,9 @@
 5	içün	içün	ADP	PCNom	_	3	case	_	_
 6	henūz	henūz	ADV	_	_	8	advmod	_	_
 7	rıḳ	rıḳ	NOUN	_	Case=Nom|Number=Sing|Person=3	12	ccomp	_	_
-8	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse	_	_
+8	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
 9	muʿtaḳ	muʿtaḳ	NOUN	_	Case=Nom|Number=Sing|Person=3	7	conj	_	_
-10	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	discourse	_	_
+10	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	_
 11	diyü	diyü	ADP	PCNom	_	9	case	_	_
 12	suʾāl	suʾāl	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 13	iderler	it	VERB	_	Aspect=Hab|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	compound:lvc	_	_
@@ -5229,7 +5229,7 @@
 3	saʿdü’d-dīn	saʿdü’d-dīn	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	4	nmod	_	_
 4	müʾellefātına	müʾellef	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
 5	beñzer	beñzer	ADJ	Adj	_	0	root	_	_
-6	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	5	discourse	_	_
+6	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
 
 # sent_id = 492
 # text = baʿdehu cenāb-ı sulṭāna vuṣūl bulup taʿlīme meşġūl olur
@@ -5462,7 +5462,7 @@
 4	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 5	de	de	PART	Emph	_	4	advmod:emph	_	_
 6	böyle	böyle	ADV	_	_	8	advmod	_	_
-7	mi	mi	AUX	Ques	_	6	discourse	_	_
+7	mi	mi	AUX	Ques	_	6	aux:q	_	_
 8	olsam	ol	VERB	_	Mood=Des|Number=Sing|Person=1|Polarity=Pos|VerbForm=Fin	9	csubj	_	_
 9-10	gerekdür	_	_	_	_	_	_	_	_
 9	gerek	gerek	NOUN	_	Case=Nom|Number=Sing|Person=3	12	ccomp	_	_
@@ -9048,7 +9048,7 @@
 5	me’ūnāt-ı	me’ūn	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Person=3	7	obj	_	_
 6	dīvāniyye	dīvāniyye	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	5	nmod:poss	_	_
 7	alur	al	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
-8	mıydı	mi	AUX	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	7	discourse	_	_
+8	mıydı	mi	AUX	Ques	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Tense=Past	7	aux:q	_	_
 9	diyü	diyü	ADP	PCNom	_	7	case	_	_
 10	su’āl	su’āl	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 11	itdi	it	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	10	compound:lvc	_	_
@@ -10095,7 +10095,7 @@
 4	namāzı	namāz	NOUN	_	Case=Acc|Number=Sing|Person=3	6	advcl	_	_
 5	ḳılup	ḳıl	VERB	Conv	Polarity=Pos|VerbForm=Conv	4	compound	_	_
 6	itdüñ	it	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	3	ccomp	_	_
-7	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	discourse	_	_
+7	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	_
 8	yezdāna	yezdān	NOUN	_	Case=Dat|Number=Sing|Person=3	6	obl	_	_
 9	niyāzı	niyāz	NOUN	_	Case=Acc|Number=Sing|Person=3	6	obj	_	_
 
@@ -11288,7 +11288,7 @@
 6	ġayrı	ġayrı	ADJ	Adj	_	7	amod	_	_
 7	kimse	kimse	PRON	Quant	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	görmez	gör	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-9	mi	y	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	discourse	_	_
+9	mi	y	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	8	aux:q	_	_
 
 # sent_id = 853
 # text = züheyr daḫı bunı göricek bildi kim bu ʿavret buña ḥīle eylemiş
@@ -13784,7 +13784,7 @@
 7	ḥāli	ḥāl	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
 8	mevlānānuñ	mevlānā	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	7	nmod:poss	_	_
 9	böyle	böyle	ADV	_	_	12	ccomp	_	_
-10	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	discourse	_	_
+10	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	_
 11	diyü	diyü	ADP	PCNom	_	9	case	_	_
 12	suʾāl	suʾāl	NOUN	_	Case=Nom|Number=Sing|Person=3	0	root	_	_
 13	eyledüm	eyle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	12	compound:lvc	_	_
@@ -18917,7 +18917,7 @@
 5	ol	ol	DET	Demons	Definite=Def|PronType=Art	6	det	_	_
 6	ḫavfdan	ḫavf	NOUN	_	Case=Abl|Number=Sing|Person=3	7	obl	_	_
 7	ḳurtuldum	ḳurtul	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbForm=Fin	4	ccomp	_	_
-8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	discourse	_	_
+8	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	7	aux:q	_	_
 9	bunlar	bu	PRON	Pers	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
 10	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	1	parataxis	_	_
 11	i-y	i-y	INTJ	_	_	12	discourse	_	_
@@ -20628,7 +20628,7 @@
 2	ol	ol	DET	Demons	Definite=Def|PronType=Art	3	det	_	_
 3	miḳdār	miḳdār	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl	_	_
 4	ev	ev	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obj	_	_
-5	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	discourse	_	_
+5	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	_
 6	yapabilürsin	yap	VERB	_	Aspect=Hab|Mood=Pot|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = kan_1236
@@ -20950,7 +20950,7 @@
 # text = ʿanterüñ ḳoyunın mı alursın
 1	ʿanterüñ	ʿanter	PROPN	Pers	Case=Gen|NameType=Prs|Number=Sing|Person=3	2	nmod:poss	_	_
 2	ḳoyunın	ḳoyun	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obj	_	_
-3	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	4	discourse	_	_
+3	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	4	aux:q	_	_
 4	alursın	al	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = kan_1497
@@ -20959,7 +20959,7 @@
 2	bu	bu	DET	Demons	Definite=Def|PronType=Art	3	det	_	_
 3	kez	kez	NOUN	_	Case=Nom|Number=Sing|Person=3	6	obl:tmod	_	_
 4	aña	o	PRON	Pers	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
-5	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	discourse	_	_
+5	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	_
 6	ḳılursın	ḳıl	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # sent_id = kan_1498
@@ -21170,7 +21170,7 @@
 4	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	3	cop	_	_
 5	kim	kim	SCONJ	_	_	6	mark	_	_
 6	bilmez	bil	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-7	misiz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	6	discourse	_	_
+7	misiz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	6	aux:q	_	_
 8	ki	ki	SCONJ	_	_	11	mark	_	_
 9	ʿanter	ʿanter	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	11	nsubj	_	_
 10	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	11	obl	_	_
@@ -21241,7 +21241,7 @@
 8	ʿanter	ʿanter	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	10	nsubj	_	_
 9	senüñ	sen	PRON	Pers	Case=Gen|Number=Sing|Person=2|PronType=Prs	10	nmod:poss	_	_
 10	evüñde	ev	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	ccomp	_	_
-11	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	10	discourse	_	_
+11	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	10	aux:q	_	_
 12	didi	di	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	6	ccomp	_	_
 
 # sent_id = kan_2513
@@ -21351,7 +21351,7 @@
 4	bir	bir	DET	Indef	Definite=Ind|PronType=Art	5	det	_	_
 5	bahādur	bahādur	NOUN	_	Case=Nom|Number=Sing|Person=3	6	nsubj	_	_
 6	yoḳ	yoḳ	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Neg	0	root	_	_
-7	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	discourse	_	_
+7	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	6	aux:q	_	_
 8	ki	ki	SCONJ	_	_	13	mark	_	_
 9	işbu	işbu	DET	Demons	Definite=Def|PronType=Art	12	det	_	_
 10	ḳara	ḳara	ADJ	Adj	_	11	amod	_	_
@@ -21556,24 +21556,24 @@
 12	didügi	di	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	13	acl	_	_
 13	kişiyi	kişi	NOUN	_	Case=Acc|Number=Sing|Person=3	14	obj	_	_
 14	bilür	bil	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
-15	misiz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	14	discourse	_	_
+15	misiz	mi	AUX	Ques	Aspect=Imp|Number=Plur|Person=2|Tense=Pres	14	aux:q	_	_
 16	ve	ve	CCONJ	_	_	18	cc	_	_
 17	işitmişiñüz	işit	VERB	Ptcp	Aspect=Perf|Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=2|Polarity=Pos|Tense=Past|VerbForm=Part	18	nsubj	_	_
 18	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	14	conj	_	_
-19	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	18	discourse	_	_
+19	mıdur	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	18	aux:q	_	_
 
 # sent_id = kan_11168
 # text = bu didügi vāḳiʿ midür yoḫsa beni yalan sözile ḳorḳudur mı didi
 1	bu	bu	DET	Demons	Definite=Def|PronType=Art	2	det	_	_
 2	didügi	di	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	nsubj	_	_
 3	vāḳiʿ	vāḳiʿ	ADJ	Adj	_	11	ccomp	_	_
-4	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	discourse	_	_
+4	midür	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	3	aux:q	_	_
 5	yoḫsa	yoḫsa	CCONJ	_	_	9	cc	_	_
 6	beni	ben	PRON	Pers	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
 7	yalan	yalan	ADJ	Adj	_	8	amod	_	_
 8	sözile	söz	NOUN	_	Case=Ins|Number=Sing|Person=3	9	obl	_	_
 9	ḳorḳudur	ḳorḳut	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	3	conj	_	_
-10	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	discourse	_	_
+10	mı	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	9	aux:q	_	_
 11	didi	di	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 
 # sent_id = kan_11169
