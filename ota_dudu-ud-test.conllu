@@ -17191,7 +17191,7 @@
 18	sin	y	AUX	Zero	Number=Sing|Person=1|Polarity=Pos|Tense=Pres	17	cop	_	Ref=MATT_8.2
 
 # sent_id = bible-1260
-# parallel_id = bible/matt-8-5/6
+# parallel_id = bible/matt-8-5-6
 # text = andan kefernaḥūma girdigi zemān bir yüzbaşı gelüb aña yalvardı ve dedi ki yā rabb benim oġlanım evde meflūcdur pek derd çeküb yatıyor
 1	andan	andan	ADV	Pers	_	3	advmod	_	Ref=MATT_8.5
 2	kefernaḥūma	kefernaḥūm	PROPN	Place	Case=Dat|NameType=Geo|Number=Sing|Person=3	3	obl	_	Ref=MATT_8.5
@@ -17234,7 +17234,7 @@
 11	getürüñ	getür	VERB	_	Mood=Imp|Number=Plur|Person=2|Polarity=Pos|VerbForm=Fin	2	conj	_	Ref=JOHN_14.1
 
 # sent_id = bible-1262
-# parallel_id = bible/JOHN-15-3
+# parallel_id = bible/john-15-3
 # text = artıḳ siz benim size söyledügüm kelām ile pāksıñız
 1	artıḳ	artıḳ	ADV	_	_	8	advmod	_	Ref=JOHN_15.3
 2	siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	Ref=JOHN_15.3
