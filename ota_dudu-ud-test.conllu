@@ -19969,7 +19969,7 @@
 1	zīrā	zīrā	CCONJ	_	_	10	advmod	_	_
 2	ki	ki	SCONJ	_	_	1	mark	_	_
 3	ol	ol	DET	Demons	Definite=Def|PronType=Art	4	det	_	_
-4	günde	gün	NOUN	_	Case=Loc|Number=Sing|Person=3	8	obl:tmod	_	_
+4	günde	gün	NOUN	_	Case=Loc|Number=Sing|Person=3	10	obl:tmod	_	_
 5	ibrāhīm	ibrāhīm	PROPN	Pers	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing|Person=3	8	nsubj	_	_
 6	peyġām-ber	peyġām-ber	NOUN	_	Case=Nom|Number=Sing|Person=3	5	flat	_	_
 7	ismāʿīli	ismāʿīl	PROPN	Pers	Case=Acc|Gender=Masc|NameType=Prs|Number=Sing|Person=3	8	obj	_	_
