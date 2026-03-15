@@ -20076,7 +20076,7 @@
 2	işleri	iş	NOUN	_	Case=Acc|Number=Plur|Person=3	8	obj	_	_
 3	bize	biz	PRON	Pers	Case=Dat|Number=Plur|Person=1|PronType=Prs	8	obl	_	_
 4	allāh	allāh	PROPN	_	Case=Nom|Number=Sing|Person=3	5	nmod	_	_
-5	buyruġı	buyruḳ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+5	buyruġı	buyruḳ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
 6	birle	birle	CCONJ	_	_	5	case	_	_
 7	mi	mi	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	5	aux:q	_	_
 8	idersin	it	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -22824,7 +22824,7 @@
 10	virmek	vir	VERB	Vnoun	Case=Nom|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun	11	csubj	_	_
 11	fikr	fikr	NOUN	_	Case=Nom|Number=Sing|Person=3	3	conj	_	_
 12	itdüñizse	it	VERB	_	Aspect=Perf|Evident=Fh|Mood=Cnd|Number=Sing|Person=2|Polarity=Pos|Tense=Past	11	compound:lvc	_	_
-13	işbu	işbu	DET	Demons	_	8	det	_	_
+13	işbu	işbu	DET	Demons	Definite=Def|PronType=Art	16	det	_	_
 14-15	elüñdeki	_	_	_	_	_	_	_	_
 14	elüñde	el	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	16	amod	_	_
 15	ki	ki	ADP	Rel	_	14	case	_	_
@@ -22951,7 +22951,7 @@
 12	anuñ	o	PRON	Pers	Case=Gen|Number=Sing|Person=3|PronType=Prs	13	nmod:poss	_	_
 13	yüzini	yüz	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
 14	görecek	gör	VERB	Conv	Aspect=Prosp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Pass	15	advcl	_	_
-15	degüldüñ	degül	AUX	Overt	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+15	degüldüñ	degül	AUX	Overt	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
 
 # sent_id = kan_6531
 # text = şimdi senüñ atañ vardı ḫalḳa bizüm ḫaberümüz virüp muşdıladı ve cemīʿ ḫalḳ ulu ve kiçi hep bize ḳarşu çıḳsa gerekdür
@@ -25111,10 +25111,10 @@
 
 # sent_id = züte_786
 # text = ve bosna begi ferhād begden daḫi baş ve dil gelüp merʿī ḳılındı
-1	ve	ve	CCONJ	_	_	12	cc	_	_
+1	ve	ve	CCONJ	_	_	11	cc	_	_
 2	bosna	bosna	PROPN	Place	Case=Nom|NameType=Geo|Number=Sing|Person=3	3	nmod	_	_
 3	begi	beg	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
-4	ferhād	ferhād	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	7	obl	_	_
+4	ferhād	ferhād	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	10	obl	_	_
 5	begden	beg	NOUN	_	Case=Abl|Number=Sing|Person=3	4	flat	_	_
 6	daḫi	daḫi	PART	Emph	_	4	advmod:emph	_	_
 7	baş	baş	NOUN	_	Case=Nom|Number=Sing|Person=3	10	obj	_	_
@@ -25242,10 +25242,10 @@
 7	iken	i	AUX	Overt	Polarity=Pos|VerbForm=Conv	6	cop	_	_
 8	ereş	ereş	PROPN	Place	Case=Nom|NameType=Geo|Number=Sing|Person=3	9	nmod	_	_
 9	muḥāfaẓasına	muḥāfaẓa	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
-10	ḳalup	ḳal	VERB	Conv	Polarity=Pos|VerbForm=Conv	18	advcl	_	_
-11	firār	firār	NOUN	_	Case=Nom|Number=Sing|Person=3	18	advcl	_	_
+10	ḳalup	ḳal	VERB	Conv	Polarity=Pos|VerbForm=Conv	11	advcl	_	_
+11	firār	firār	NOUN	_	Case=Nom|Number=Sing|Person=3	13	acl	_	_
 12	iden	it	VERB	Ptcp	Polarity=Pos|Tense=Pres|VerbForm=Part	11	compound:lvc	_	_
-13	ḫıżr	ḫıżr	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	15	obl	_	_
+13	ḫıżr	ḫıżr	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	15	nmod	_	_
 14	çelebinüñ	çelebi	NOUN	_	Case=Gen|Number=Sing|Person=3	13	flat	_	_
 15	siyāset	siyāset	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nmod	_	_
 16	olınduġı	ol	VERB	Ptcp	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	15	compound:lvc	_	_
@@ -25286,7 +25286,7 @@
 9	defterdārlıġı	defterdārlıḳ	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
 10	ifrāz	ifrāz	NOUN	_	Case=Nom|Number=Sing|Person=3	13	advcl	_	_
 11	olınup	ol	VERB	Conv	Polarity=Pos|VerbForm=Conv|Voice=Pass	10	compound:lvc	_	_
-12	ʿināyet	ʿināyet	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	obj	_	_
+12	ʿināyet	ʿināyet	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	13	obj	_	_
 13	buyurılmaġla	buyur	VERB	Vnoun	Case=Ins|Number=Sing|Person=3|Polarity=Pos|VerbForm=Vnoun|Voice=Pass	16	obl	_	_
 14	el	el	NOUN	_	Case=Nom|Number=Sing|Person=3	15	obj	_	_
 15	öpüp	öp	VERB	Conv	Polarity=Pos|VerbForm=Conv	16	advcl	_	_
