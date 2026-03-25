@@ -7862,7 +7862,7 @@
 6	bunlara	bu	PRON	Demons	Case=Dat|Number=Plur|Person=3|PronType=Dem	5	obl	_	_
 7	eyitdiler	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	5	conj	_	_
 8	ol	ol	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	bizümle	biz	PRON	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	10	obl	_	_
+9	bizümle	biz	PRON	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	10	obl	_	_
 10	degüldür	degül	AUX	Overt	Aspect=Perf|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	7	ccomp	_	_
 
 # sent_id = kan_271
