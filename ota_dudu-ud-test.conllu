@@ -8670,7 +8670,7 @@
 16	ve	ve	CCONJ	_	_	20	cc	_	_
 17	daḫı	daḫı	CCONJ	_	_	20	cc	_	_
 18	ḳuşlardan	ḳuş	NOUN	_	Case=Abl|Number=Plur|Person=3	19	nmod	_	_
-19	cemīʿisi	cemīʿi	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
+19	cemīʿisi	cemīʿi	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Ind	20	nsubj	_	_
 20-21	varıdı	_	_	_	_	_	_	_	_
 20	var	var	NOUN	Exist	Case=Nom|Number=Sing|Person=3|Polarity=Pos	15	conj	_	_
 21	ıdı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	20	cop	_	_
