@@ -13420,7 +13420,7 @@
 7	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	6	cop	_	_
 8	niçün	niçün	ADV	Ques	_	9	advmod	_	_
 9	ʿilāc	ʿilāc	NOUN	_	Case=Nom|Number=Sing|Person=3	6	conj	_	_
-10	etmezsin	et	VERB	_	Aspect=Hab|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	compound:lvc	_	_
+10	etmezsin	et	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres|VerbForm=Fin	9	compound:lvc	_	_
 
 # sent_id = kan_15489
 # text = eger ben iḳdām itmezsem iş ilerü varmaz
