@@ -5,7 +5,7 @@ An Ottoman Turkish dependency treebank annotated in UD style. Created by Enes YÄ
 
 # Introduction
 
-This project comprises 1,782 sentences that are firstly automatically annotated via Machamp (Van der Goot et al., 2021). During the training phase, multiple modern Turkish UD treebanks were used.
+This project comprises 2,246 sentences that are firstly automatically annotated via Machamp (Van der Goot et al., 2021). During the training phase, multiple modern Turkish UD treebanks were used.
 Subsequently, the sentences were manually corrected. The sentences were written between the 14th and 20th centuries in various genres
 such as fiction, news, articles, registry records, the New Testament (1819 edition), and religious preaching. Unfortunately, for this version, the genres can not be told apart by sentence ids.
 The training set, translated by the contributor of the treebank, is the direct translation of [Cairo Cicling Corpus (CCC)](https://github.com/UniversalDependencies/cairo/blob/master/translations.txt).
