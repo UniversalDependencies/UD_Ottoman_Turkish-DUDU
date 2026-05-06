@@ -5,140 +5,141 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>1782</sentences><tokens>16728</tokens><words>17125</words><fused>394</fused></total>
-    <train><sentences>20</sentences><tokens>122</tokens><words>125</words><fused>3</fused></train>
-    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1762</sentences><tokens>16606</tokens><words>17000</words><fused>391</fused></test>
+    <total><sentences>2246</sentences><tokens>21549</tokens><words>22027</words><fused>474</fused></total>
+    <train><sentences>1117</sentences><tokens>10626</tokens><words>10845</words><fused>217</fused></train>
+    <dev><sentences>121</sentences><tokens>1145</tokens><words>1177</words><fused>32</fused></dev>
+    <test><sentences>1008</sentences><tokens>9778</tokens><words>10005</words><fused>225</fused></test>
   </size>
-  <lemmas unique="4093" /><!-- ve, ol, y, it, bu, bir, ki, o, eyle, var, daḫı, gel, ile, ṣoñra, ḳıl -->
-  <forms unique="7369" /><!-- ve, bir, ki, bu, ol, oldı, daḫı, ile, dur, idi, u, olup, ü, ṣoñra, dür -->
-  <fusions unique="289" /><!-- vardur, varıdı, yoḳdur, budur, vardır, ḳaṣabadur, iderleridi, olmışıdı, vardı, vâḳiʿdür, şehrdür, defîndir, itmişdür, medfûndur, şehrlerindendür -->
+  <lemmas unique="4560" /><!-- ve, ol, y, it, bu, bir, ki, o, gel, var, eyle, daḫı, ile, ben, ṣoñra -->
+  <forms unique="8545" /><!-- ve, bir, ki, bu, ol, daḫı, oldı, ile, dur, ṣoñra, olup, idi, dür, u, ü -->
+  <fusions unique="349" /><!-- vardur, varıdı, yoḳdur, budur, vardır, oldur, ḳaṣabadur, iderleridi, olmışıdı, vardı, vāḳiʿdür, şehrdür, defīndir, itmişdür, medfūndur -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">1080</tag><!-- niçe, mezbûr, vâḳiʿ, çoḳ, meẕkûr, maʿzûl, şerîf, ẓâhir, muḳarrer, büyük -->
-    <tag name="ADP">313</tag><!-- ṣoñra, diyü, gibi, ki, içün, üzere, için, dek, üzre, göre -->
-    <tag name="ADV">717</tag><!-- baʿdehu, yine, ḥattâ, pes, hemân, bile, nâ-gâh, andan, hep, ziyâde -->
-    <tag name="AUX">499</tag><!-- y, i, mi, degül, degil, ol -->
-    <tag name="CCONJ">1152</tag><!-- ve, ile, ammâ, ne, eger, lâkin, gâh, zîrâ, yoḫsa, ya -->
-    <tag name="DET">740</tag><!-- bir, bu, ol, her, o, baʿżı, birḳaç, işbu, şol, şu -->
-    <tag name="INTJ">52</tag><!-- yâ, teʿâlâ, ey, i-y, evet, tâ, ve’s-selâm, â, belî, in-şâʾallâh -->
-    <tag name="NOUN">6590</tag><!-- gün, var, yir, beg, paşa, ḥâl, âdem, üzer, ʿavret, leşker -->
-    <tag name="NUM">460</tag><!-- yüz, iki, üç, biñ, on, dört, ṭoḳuz, yigirmi, beş, bir -->
-    <tag name="PART">167</tag><!-- daḫı, daḫi, i, da, de, daḫî, ki, ḫod -->
-    <tag name="PRON">702</tag><!-- o, bu, ben, kendü, biri, sen, ne, kim, ol, biz -->
-    <tag name="PROPN">1174</tag><!-- ʿanter, nemrûd, züheyr, âẕer, ibrâhîm, aḥmed, kenʿân, allâh, muḥammed, islâm -->
+    <tag name="ADJ">1303</tag><!-- mezbūr, niçe, maʿzūl, çoḳ, vāḳiʿ, hümāyūn, ẓāhir, dürlü, meẕkūr, şerīf -->
+    <tag name="ADP">390</tag><!-- ṣoñra, gibi, diyü, içün, ki, için, üzere, üzre, dek, ḳadar -->
+    <tag name="ADV">909</tag><!-- yine, baʿdehu, pes, ḥattā, andan, bile, hemān, baʿdehū, hep, nā-gāh -->
+    <tag name="AUX">595</tag><!-- y, i, mi, degül, degil, ol -->
+    <tag name="CCONJ">1529</tag><!-- ve, ile, ammā, eger, ne, zīrā, gāh, lākin, daḫı, yoḫsa -->
+    <tag name="DET">941</tag><!-- bir, bu, ol, her, baʿżı, o, birḳaç, işbu, şol, ḳaç -->
+    <tag name="INTJ">78</tag><!-- yā, i-y, teʿālā, ey, evet, tā, ve’s-selām, ā, belī, in-şāʾallāh -->
+    <tag name="NOUN">8303</tag><!-- paşa, gün, var, beg, yir, el, üzer, yer, ḥāl, baş -->
+    <tag name="NUM">506</tag><!-- yüz, iki, üç, on, biñ, dört, yigirmi, ṭoḳuz, beş, bir -->
+    <tag name="PART">220</tag><!-- daḫı, daḫi, da, i, daḫī, de, ki, ḫod -->
+    <tag name="PRON">1006</tag><!-- o, bu, ben, sen, kendü, biri, ne, biz, ol, siz -->
+    <tag name="PROPN">1623</tag><!-- ibrāhīm, ʿanter, nemrūd, züheyr, iskender, āẕer, ismāʿīl, aḥmed, mālik, mıṣr -->
     <tag name="PUNCT">34</tag><!-- ., ,, ?, ! -->
-    <tag name="SCONJ">235</tag><!-- ki, kim, eger, velîkin, çü -->
-    <tag name="VERB">3210</tag><!-- ol, it, eyle, gel, var, ḳıl, gör, di, vir, al -->
+    <tag name="SCONJ">329</tag><!-- ki, kim, eger, velīkin, nitekim, çü -->
+    <tag name="VERB">4261</tag><!-- ol, it, gel, eyle, var, vir, gör, ḳıl, di, git -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="68">
-    <feat name="Aspect" value="Hab" upos="VERB">436</feat><!-- olur, eydür, iderler, ider, iderdi, olmaz, iderin, gider, gelür, gelürdi -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">32</feat><!-- mı, mıdur, mi, midür, misiz, virme, bişmiş, eyleme, gel, idicek -->
-    <feat name="Aspect" value="Perf" upos="AUX,VERB">2078</feat><!-- oldı, dur, idi, dür, eyledi, itdi, eyitdi, geldi, olındı, itdiler -->
+    <feat name="Aspect" value="Hab" upos="AUX,VERB">542</feat><!-- eydür, olur, ider, iderdi, iderler, olmaz, gider, iderin, gelür, gelürdi -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">43</feat><!-- mi, mı, midür, mıdur, misin, eyleme, misiz, virme, bişmiş, gel -->
+    <feat name="Aspect" value="Perf" upos="AUX,VERB">2713</feat><!-- oldı, dur, idi, dür, eyledi, itdi, eyitdi, olındı, geldi, didi -->
     <feat name="Aspect" value="Prog" upos="VERB">15</feat><!-- döge, ederek, ḳorḳaraḳ, düşünüyorsun, edilmektedir, ediyorsun, gidiyoruz, iderek, içerek, söyleşerek -->
-    <feat name="Aspect" value="Prosp" upos="VERB">10</feat><!-- olacaḳ, eyleyüyazdı, gelebilecegini, idemeyeceklerin, kutlanacaktır, olıcaġı, çıḳayazdı, övülecek, ḳoyacaḳ -->
-    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">550</feat><!-- andan, bundan, itdükden, elinden, ṭarafdan, senden, ʿulemâdan, benden, bunlardan, deryâdan -->
-    <feat name="Case" value="Acc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">732</feat><!-- anı, bunı, beni, ḥâli, birini, kendüyi, oġlanı, oġlını, bizi, cümlesin -->
-    <feat name="Case" value="Dat" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">968</feat><!-- üzerine, aña, yirine, baña, saña, bunlara, yire, anlara, buña, cânibine -->
-    <feat name="Case" value="Equ" upos="ADJ,NOUN">3</feat><!-- muḳteżâsınca, öñlerince, ṭabaḳasınca -->
-    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">559</feat><!-- bunuñ, anuñ, birinüñ, bunlaruñ, benüm, senüñ, züheyrüñ, ʿanterüñ, anlaruñ, ibrâhîmüñ -->
-    <feat name="Case" value="Ins" upos="ADJ,NOUN,PRON,PROPN,VERB">209</feat><!-- vechile, anuñla, itmekle, olmaġla, dimekle, maḫlaṣıyla, âdemle, anasıyıla, baġdâdla, baṭnla -->
-    <feat name="Case" value="Loc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">534</feat><!-- anda, içinde, öñinde, senesinde, yanında, yirde, üzerinde, ḥâlde, zamânda, ḳanda -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">5353</feat><!-- var, gün, bin, ben, nemrûd, paşa, kendü, efendi, gice, oġlı -->
-    <feat name="Definite" value="Def" upos="DET">440</feat><!-- bu, ol, her, o, işbu, şol, şu, budur, ne -->
-    <feat name="Definite" value="Ind" upos="DET">299</feat><!-- bir, baʿżı, birḳaç, birḳac, bâżı, ḳaç -->
+    <feat name="Aspect" value="Prosp" upos="VERB">14</feat><!-- olacaḳ, eyleyüyazdı, gelebilecegini, girmeyecigin, görecek, idemeyeceklerin, idicek, kutlanacaktır, olıcaġı, söyleyecegim -->
+    <feat name="Case" value="Abl" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">696</feat><!-- andan, bundan, bunlardan, ṭarafdan, atdan, deryādan, elinden, itdükden, senden, begden -->
+    <feat name="Case" value="Acc" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">918</feat><!-- anı, beni, bunı, ḥāli, seni, kendüyi, ismāʿīli, oġlanı, oġlını, anları -->
+    <feat name="Case" value="Dat" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1286</feat><!-- üzerine, aña, baña, paşaya, saña, buña, yerine, yirine, bunlara, yanına -->
+    <feat name="Case" value="Equ" upos="ADJ,NOUN">4</feat><!-- ardınca, muḳteżāsınca, öñlerince, ṭabaḳasınca -->
+    <feat name="Case" value="Gen" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">728</feat><!-- anuñ, bunuñ, benüm, birinüñ, bunlaruñ, senüñ, mezbūruñ, züheyrüñ, ʿanterüñ, bizüm -->
+    <feat name="Case" value="Ins" upos="ADJ,NOUN,PRON,PROPN,VERB">265</feat><!-- anuñla, vechile, itmekle, olmaġla, ḥālile, ādemle, dimekle, maḫlaṣıyla, ʿanterile, ḳılıcıla -->
+    <feat name="Case" value="Loc" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">640</feat><!-- anda, içinde, yirde, öñinde, ḳatında, es̱nāda, yanında, zamānda, ḥālde, senesinde -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">6936</feat><!-- var, gün, paşa, ben, ibrāhīm, nemrūd, bin, efendi, kendü, melik -->
+    <feat name="Definite" value="Def" upos="DET">571</feat><!-- bu, ol, her, o, işbu, şol, şu, budur, ne -->
+    <feat name="Definite" value="Ind" upos="DET">368</feat><!-- bir, baʿżı, birḳaç, ḳaç, birḳac, bāżı -->
     <feat name="Degree" value="Cmp" upos="ADV">2</feat><!-- daha, daḫı -->
     <feat name="Degree" value="Sup" upos="ADV">1</feat><!-- en -->
-    <feat name="Evident" value="Fh" upos="AUX,VERB">1472</feat><!-- oldı, idi, eyledi, itdi, eyitdi, geldi, olındı, itdiler, didi, oldılar -->
-    <feat name="Evident" value="Nfh" upos="AUX,VERB">164</feat><!-- imiş, olmışdur, itmiş, itmişdür, olmış, etmiştir, itmişler, eylemiş, olmışlar, ḳılmış -->
-    <feat name="ExtPos" value="DET" upos="DET">1</feat><!-- bir -->
-    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PROPN">1227</feat><!-- ʿavret, sene, müddet-i, mıṣr, senesinde, küffâr-ı, müddet, ġalebe, şehâdet, ḥażret-i -->
-    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PRON,PROPN">292</feat><!-- nemrûd, züheyr, aḥmed, muṣṭafâ, muḥammed, ibrâhîm, meḥemmed, ʿalî, kenʿân, züheyrüñ -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">51</feat><!-- ise, olsa, sa, se, olursa, sañ, varısa, açılsa, binse, dinlese -->
+    <feat name="Evident" value="Fh" upos="AUX,VERB">1992</feat><!-- oldı, idi, eyledi, itdi, eyitdi, olındı, geldi, didi, itdiler, oldılar -->
+    <feat name="Evident" value="Nfh" upos="AUX,VERB">184</feat><!-- olmışdur, imiş, itmiş, itmişdür, olmış, etmiştir, itmişler, eylemiş, olmışlar, ḳılmış -->
+    <feat name="ExtPos" value="DET" upos="DET">3</feat><!-- bir -->
+    <feat name="Gender" value="Fem" upos="ADJ,NOUN,PRON,PROPN">1407</feat><!-- riʿāyet, eyāleti, ʿavret, sene, mıṣr, es̱nāda, küffār-ı, müddet-i, senesinde, vilāyetine -->
+    <feat name="Gender" value="Masc" upos="ADJ,NOUN,PRON,PROPN">387</feat><!-- ibrāhīm, nemrūd, aḥmed, züheyr, muṣṭafā, meḥemmed, ʿalī, muḥammed, kenʿān, maḥmūd -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">70</feat><!-- ise, olsa, sa, se, sañ, olursa, varısa, çıḳsa, -sa, -y-ise -->
     <feat name="Mood" value="Des" upos="VERB">1</feat><!-- olsam -->
-    <feat name="Mood" value="Imp" upos="AUX,VERB">89</feat><!-- eyle, gizle, gerek, görüñ, itme, itmeñ, olasız, olsun, oluñ, ova -->
-    <feat name="Mood" value="Ind" upos="AUX,VERB">1886</feat><!-- oldı, eyledi, itdi, eyitdi, geldi, olındı, itdiler, didi, oldılar, eylediler -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">131</feat><!-- getür, eyle, gizle, gerek, getürüñ, idüñ, ṭur, boġazla, git, görüñ -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">2504</feat><!-- oldı, eyledi, itdi, eyitdi, olındı, geldi, didi, eydür, oldılar, itdiler -->
     <feat name="Mood" value="Nec" upos="VERB">1</feat><!-- yapmalı -->
-    <feat name="Mood" value="Opt" upos="VERB">85</feat><!-- ola, ide, idesin, vire, ṭapalar, ala, alam, aldamayasın, alıvire, ayırmasun -->
-    <feat name="Mood" value="Pot" upos="VERB">10</feat><!-- bulımadı, edebilirsiniz, eyleyemez, gelebilecegini, idemedi, idemez, olabildi, olımadılar, sizemezüz, üleşdüremem -->
-    <feat name="NameType" value="Com" upos="PROPN">15</feat><!-- sürḫ-serân, ḳızılbaş, celvetî, meşşâʾiyyîn, müslimîn, naḳşibendiyyeye, naṣârâ, rûm, sürḫ-serân-ı, yahûd -->
-    <feat name="NameType" value="Geo" upos="NOUN,PROPN">333</feat><!-- mıṣr, burusada, yemen, anaṭolı, belġrad, rûm, rûma, rûmili, budun, burûsaya -->
-    <feat name="NameType" value="Nat" upos="PROPN">54</feat><!-- ʿacem, ʿarab, fârs, yehûd, moġollar, rûs-ı, ḳıpçaḳ, kürd, moġol, tatar -->
-    <feat name="NameType" value="Prs" upos="NOUN,PROPN">709</feat><!-- nemrûd, ʿanter, züheyr, âẕer, aḥmed, muṣṭafâ, muḥammed, ʿalî, ibrâhîm, meḥemmed -->
+    <feat name="Mood" value="Opt" upos="VERB">126</feat><!-- ola, idesin, eyleye, ide, gidelüm, göre, göreler, irişesin, vara, vire -->
+    <feat name="Mood" value="Pot" upos="VERB">11</feat><!-- bulımadı, edebilirsiniz, eyleyemez, gelebilecegini, idemedi, idemez, olabildi, olımadılar, sizemezüz, yapabilürsin -->
+    <feat name="NameType" value="Com" upos="PROPN">28</feat><!-- ʿabs, sürḫ-serān, ḳızılbaş, ṣaḥn, ṭay, celvetī, cürhüm, düvāl-pā, meşşāʾiyyīn, müslimīn -->
+    <feat name="NameType" value="Geo" upos="NOUN,PROPN">489</feat><!-- mıṣr, rūmili, baġdād, yemen, istanbula, burusada, diyārbekr, erżurūm, şām, anaṭolı -->
+    <feat name="NameType" value="Nat" upos="PROPN">64</feat><!-- ʿacem, ʿarab, fārs, yehūd, moġollar, rūs-ı, ḳıpçaḳ, kürd, moġol, tatar -->
+    <feat name="NameType" value="Prs" upos="NOUN,PROPN">979</feat><!-- ibrāhīm, nemrūd, ʿanter, züheyr, iskender, aḥmed, muṣṭafā, ʿalī, āẕer, meḥemmed -->
     <feat name="Number" value="Dual" upos="ADJ,NOUN">3</feat><!-- muḥteremeyn, ḥaremeyn-i, ṭarafeyn -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">1662</feat><!-- itdiler, oldılar, eylediler, bunlar, bunlaruñ, iderler, anlar, virdiler, geldiler, benî -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">9765</feat><!-- oldı, dur, idi, dür, eyledi, itdi, var, andan, gün, eyitdi -->
-    <feat name="Number[psor]" value="Plur" upos="ADJ,NOUN,PRON,VERB">184</feat><!-- didükleri, şehrlerinden, alduḳları, başlarını, başumuza, birbirlerine, birini, didügümüz, heybetinden, itdüklerinde -->
-    <feat name="Number[psor]" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">1890</feat><!-- üzerine, oġlı, içinde, biri, birinüñ, yirine, itdügi, adı, begi, beglerbegisi -->
-    <feat name="NumType" value="Card" upos="NUM">427</feat><!-- yüz, on, biñ, iki, üç, dört, yigirmi, ṭoḳuz, ḳırḳ, sekiz -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">2023</feat><!-- oldılar, itdiler, eylediler, bunlaruñ, bunlar, iderler, geldiler, anlar, benī, virdiler -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">12756</feat><!-- oldı, dur, idi, dür, eyledi, var, itdi, eyitdi, andan, gün -->
+    <feat name="Number[psor]" value="Plur" upos="ADJ,NOUN,PRON,VERB">207</feat><!-- didükleri, şehrlerinden, alduḳları, başlarını, başumuza, baʿżısına, birbirlerine, birini, didügümüz, heybetinden -->
+    <feat name="Number[psor]" value="Sing" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2438</feat><!-- üzerine, oġlı, beglerbegisi, yeri, içinde, begi, eyāleti, itdügi, yerine, biri -->
+    <feat name="NumType" value="Card" upos="NUM">466</feat><!-- yüz, on, biñ, iki, üç, dört, yigirmi, ḳırḳ, ṭoḳuz, sekiz -->
     <feat name="NumType" value="Dist" upos="NUM">6</feat><!-- birer, yigirmişer, üçer, ṭoḳsanar -->
-    <feat name="NumType" value="Ord" upos="NUM">27</feat><!-- birinci, üçinci, ikinci, üçünci, sekizinci, ṭoḳuzıncı, altıncı, dördinci, dördünci, onuncu -->
-    <feat name="Person" value="1" upos="AUX,NOUN,PRON,VERB">217</feat><!-- ben, benüm, baña, itdüm, beni, oldum, iderin, bize, benden, bizi -->
-    <feat name="Person" value="2" upos="AUX,NOUN,PRON,VERB">163</feat><!-- saña, senüñ, sen, senden, eyle, gizle, seni, gerek, idesin, size -->
-    <feat name="Person" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">11045</feat><!-- oldı, dur, idi, dür, eyledi, itdi, var, andan, gün, eyitdi -->
-    <feat name="Person[psor]" value="1" upos="AUX,NOUN,PRON,VERB">66</feat><!-- başumuza, didügümüz, ḳarındaşum, ahâlîmizin, atamuñ, ayaġımuza, bahâdurlarumuz, bahâdurlıġum, başımuz, begledügümüz -->
-    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,PRON,VERB">28</feat><!-- anuñla, başuñuza, birbirüñüze, bitürmeñ, bunuñıla, cemîʿüñüz, dôstlaruñuz, düşmenlerüñüze, gördügüñ, icâzetiñüzle -->
-    <feat name="Person[psor]" value="3" upos="ADJ,NOUN,NUM,PRON,PROPN,VERB">1980</feat><!-- üzerine, oġlı, içinde, biri, birinüñ, yirine, itdügi, adı, begi, beglerbegisi -->
-    <feat name="Polarity" value="Neg" upos="AUX,NOUN,VERB">228</feat><!-- yoḳ, olmaz, degüldür, olmadı, itmeyüp, olınmaz, ḳalmadı, bulmadı, gelmez, itmediler -->
-    <feat name="Polarity" value="Pos" upos="AUX,NOUN,VERB">3274</feat><!-- oldı, idi, olup, idüp, eyledi, itdi, var, olan, eyitdi, geldi -->
-    <feat name="PronType" value="Art" upos="DET">739</feat><!-- bir, bu, ol, her, o, baʿżı, birḳaç, işbu, şol, şu -->
-    <feat name="PronType" value="Dem" upos="PRON">198</feat><!-- andan, bunuñ, bu, bunlaruñ, anda, bundan, bunı, bunlar, buña, anlaruñ -->
-    <feat name="PronType" value="Ind" upos="PRON">105</feat><!-- birinüñ, biri, baʿżılar, birini, eks̱eri, birisi, cemîʿ-i, cümlesin, mecmûʿısı, birine -->
-    <feat name="PronType" value="Int" upos="DET,NOUN,PRON">41</feat><!-- ne, kim, ḳanda, nedür, kimini, kimdür, kime, nereye, nesnedür, ney -->
-    <feat name="PronType" value="Prs" upos="PRON">349</feat><!-- anuñ, ben, kendü, anı, aña, benüm, anlar, bunlar, ol, baña -->
+    <feat name="NumType" value="Ord" upos="NUM">34</feat><!-- ikinci, üçinci, birinci, dördünci, üçünci, altıncı, sekizinci, ṭoḳuzıncı, beşinci, dördinci -->
+    <feat name="Person" value="1" upos="AUX,NOUN,PRON,VERB">338</feat><!-- ben, benüm, baña, beni, itdüm, bize, bizüm, oldum, iderin, benden -->
+    <feat name="Person" value="2" upos="AUX,NOUN,PRON,VERB">284</feat><!-- saña, sen, senüñ, seni, size, senden, siz, getür, idesin, itdüñ -->
+    <feat name="Person" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">14157</feat><!-- oldı, dur, idi, dür, eyledi, var, itdi, eyitdi, andan, gün -->
+    <feat name="Person[psor]" value="1" upos="AUX,NOUN,PRON,VERB">103</feat><!-- rabbüm, atam, başumuza, didügümüz, göñlümde, ʿilmüm, ḥaḳḳum, ḳarındaşum, ahālīmizin, atama -->
+    <feat name="Person[psor]" value="2" upos="ADJ,NOUN,PRON,VERB">51</feat><!-- anuñla, didügüñ, senüñile, anuñıla, babañuñ, başuñuza, birbirüñüze, bitürmeñ, bunuñıla, buġdayuñuz -->
+    <feat name="Person[psor]" value="3" upos="ADJ,AUX,NOUN,NUM,PRON,PROPN,VERB">2491</feat><!-- üzerine, oġlı, beglerbegisi, yeri, içinde, begi, eyāleti, itdügi, yerine, biri -->
+    <feat name="Polarity" value="Neg" upos="AUX,NOUN,VERB">291</feat><!-- yoḳ, olmadı, olmaz, degüldür, ḳalmadı, itmeyüp, olınmaz, bulmadı, bulınmaz, gelmez -->
+    <feat name="Polarity" value="Pos" upos="ADJ,AUX,NOUN,VERB">4336</feat><!-- oldı, olup, idi, eyledi, idüp, itdi, var, eyitdi, gelüp, olan -->
+    <feat name="PronType" value="Art" upos="DET">939</feat><!-- bir, bu, ol, her, baʿżı, o, birḳaç, işbu, şol, ḳaç -->
+    <feat name="PronType" value="Dem" upos="PRON">301</feat><!-- andan, bunuñ, anda, bunlaruñ, bu, bundan, bunı, anuñ, buña, ol -->
+    <feat name="PronType" value="Ind" upos="PRON">120</feat><!-- birinüñ, biri, birisi, cemīʿ-i, baʿżılar, birini, eks̱eri, mecmūʿısı, baʿżısı, cümlesin -->
+    <feat name="PronType" value="Int" upos="DET,NOUN,PRON">57</feat><!-- ne, kim, nedür, ḳanda, kimini, kimdür, kime, ne-y-ile, nerede, nereye -->
+    <feat name="PronType" value="Prs" upos="PRON">520</feat><!-- ben, anuñ, kendü, benüm, baña, saña, aña, anı, sen, senüñ -->
     <feat name="PronType" value="Rcp" upos="PRON">11</feat><!-- biribirine, biribirinüñ, birbirine, birbirini, birbirlerini, birbirüñüze -->
-    <feat name="Reflex" value="Yes" upos="PRON">55</feat><!-- kendü, kendüye, kendüsi, kendüyi, kendüden, kendi, kendileri, kendözüñi, kendüde, kendüler -->
-    <feat name="Tense" value="Fut" upos="VERB">14</feat><!-- idecekdür, bürüyecekdür, gelebilecegini, geçecekdür, idemeyeceklerin, idicek, kutlanacaktır, olacakdur, olacaḳ, olıcaġı -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">1896</feat><!-- oldı, idi, eyledi, itdi, eyitdi, geldi, olındı, itdiler, didi, oldılar -->
+    <feat name="Reflex" value="Yes" upos="PRON">68</feat><!-- kendü, kendüye, kendüyi, kendüsi, kendüden, kendi, kendileri, kendözüñi, kendüde, kendüler -->
+    <feat name="Tense" value="Fut" upos="VERB">17</feat><!-- idecekdür, idicek, bürüyecekdür, gelebilecegini, geçecekdür, girmeyecigin, görecek, idemeyeceklerin, kutlanacaktır, olacakdur -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">2506</feat><!-- oldı, idi, eyledi, itdi, eyitdi, olındı, geldi, didi, oldılar, itdiler -->
     <feat name="Tense" value="Pqp" upos="VERB">2</feat><!-- olmışıdı, ḳurtarmışıdı -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">789</feat><!-- dur, dür, olan, olur, eydür, dir, iderler, ider, dır, gelen -->
-    <feat name="Typo" value="Yes" upos="NOUN">4</feat><!-- aṣâġir, ceddi, heyʾâtında, pederi -->
-    <feat name="VerbForm" value="Conv" upos="AUX,VERB">708</feat><!-- olup, idüp, gelüp, varup, iken, olınup, alup, görüp, idip, işidicek -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2104</feat><!-- oldı, eyledi, itdi, eyitdi, geldi, olındı, itdiler, didi, oldılar, eylediler -->
-    <feat name="VerbForm" value="Part" upos="VERB">310</feat><!-- olan, gelen, itdügi, itdükden, olduġı, olınan, didükleri, ḳalan, olınduġı, alduġı -->
-    <feat name="VerbForm" value="Vnoun" upos="VERB">124</feat><!-- itmek, itmekle, dimek, itmege, olmaġla, dimekle, almaġa, baḳmaġa, dimekdür, dögmege -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">982</feat><!-- dur, dür, olan, eydür, olur, dir, ider, iderler, gelen, dır -->
+    <feat name="Typo" value="Yes" upos="NOUN">4</feat><!-- aṣāġir, ceddi, heyʾātında, pederi -->
+    <feat name="VerbForm" value="Conv" upos="AUX,VERB">939</feat><!-- olup, idüp, gelüp, olınup, varup, iken, virilüp, alup, öpüp, işidicek -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">2818</feat><!-- oldı, eyledi, itdi, eyitdi, olındı, geldi, didi, eydür, oldılar, itdiler -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">387</feat><!-- olan, gelen, itdügi, olduġı, olınan, itdükden, ḳalan, didükleri, olınduġı, iden -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">159</feat><!-- itmek, itmege, dimek, itmekle, olmaġla, almaġa, dimekle, gitmek, olmaġa, yimege -->
     <feat name="Voice" value="Cau" upos="VERB">20</feat><!-- aġladup, bisletürüm, getürdüp, geçirüp, güldürdiler, idindi, itdirir, itdürdi, itdürüp, itdürürdi -->
-    <feat name="Voice" value="Pass" upos="VERB">212</feat><!-- olındı, olınup, ḳılındı, olınan, olındılar, olınmaz, virildi, bulındı, buyurıldı, buyurılup -->
-    <feat name="Voice" value="Rcp" upos="VERB">5</feat><!-- buluşdılar, dürtişdiler, söyleşerek, çalışdılar, ṣorışdı -->
+    <feat name="Voice" value="Pass" upos="VERB">324</feat><!-- olındı, olınup, virilüp, virildi, ḳılındı, buyurıldı, olınan, olındılar, buyurılup, gönderildi -->
+    <feat name="Voice" value="Rcp" upos="VERB">6</feat><!-- buluşdılar, dürtişdiler, görişe, söyleşerek, çalışdılar, ṣorışdı -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="36">
-    <dep name="acl">152</dep>
-    <dep name="advcl">738</dep>
-    <dep name="advmod">661</dep>
-    <dep name="advmod:emph">171</dep>
-    <dep name="amod">642</dep>
-    <dep name="appos">34</dep>
-    <dep name="aux">15</dep>
-    <dep name="case">420</dep>
-    <dep name="cc">1007</dep>
-    <dep name="cc:preconj">35</dep>
-    <dep name="ccomp">358</dep>
-    <dep name="compound">119</dep>
-    <dep name="compound:lvc">905</dep>
-    <dep name="compound:redup">28</dep>
-    <dep name="conj">1115</dep>
-    <dep name="cop">454</dep>
-    <dep name="csubj">30</dep>
-    <dep name="det">732</dep>
-    <dep name="discourse">81</dep>
-    <dep name="fixed">1</dep>
-    <dep name="flat">328</dep>
-    <dep name="flat:name">96</dep>
-    <dep name="mark">235</dep>
-    <dep name="nmod">881</dep>
-    <dep name="nmod:poss">1018</dep>
-    <dep name="nsubj">1313</dep>
-    <dep name="nummod">257</dep>
-    <dep name="obj">1043</dep>
-    <dep name="obl">2082</dep>
-    <dep name="obl:tmod">242</dep>
-    <dep name="orphan">36</dep>
-    <dep name="parataxis">30</dep>
+  <deps unique="37">
+    <dep name="acl">198</dep>
+    <dep name="advcl">971</dep>
+    <dep name="advmod">841</dep>
+    <dep name="advmod:emph">230</dep>
+    <dep name="amod">790</dep>
+    <dep name="appos">8</dep>
+    <dep name="aux">18</dep>
+    <dep name="aux:q">32</dep>
+    <dep name="case">526</dep>
+    <dep name="cc">1347</dep>
+    <dep name="cc:preconj">37</dep>
+    <dep name="ccomp">479</dep>
+    <dep name="compound">138</dep>
+    <dep name="compound:lvc">1135</dep>
+    <dep name="compound:redup">39</dep>
+    <dep name="conj">1466</dep>
+    <dep name="cop">536</dep>
+    <dep name="csubj">39</dep>
+    <dep name="det">931</dep>
+    <dep name="discourse">77</dep>
+    <dep name="fixed">3</dep>
+    <dep name="flat">460</dep>
+    <dep name="flat:name">104</dep>
+    <dep name="mark">332</dep>
+    <dep name="nmod">1179</dep>
+    <dep name="nmod:poss">1237</dep>
+    <dep name="nsubj">1782</dep>
+    <dep name="nummod">289</dep>
+    <dep name="obj">1338</dep>
+    <dep name="obl">2708</dep>
+    <dep name="obl:tmod">308</dep>
+    <dep name="orphan">43</dep>
+    <dep name="parataxis">32</dep>
     <dep name="punct">34</dep>
-    <dep name="root">1782</dep>
-    <dep name="vocative">13</dep>
-    <dep name="xcomp">37</dep>
+    <dep name="root">2246</dep>
+    <dep name="vocative">43</dep>
+    <dep name="xcomp">51</dep>
   </deps>
 </treebank>
