@@ -2400,7 +2400,7 @@
 # sent_id = kan_8499
 # text = sen ṣanduñ mı ki ben melik züheyrüñ oġlı şaʾsuñ sözin ṭutdum ve naṣīḥatin ḳabūl ḳıldum
 1	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
-2	ṣanduñ	ṣan	VERB	_	Aspect=Perf|Evident=Fh|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ṣanduñ	ṣan	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 3	mı	y	AUX	Ques	Aspect=Imp|Number=Sing|Person=3|Tense=Pres	2	aux:q	_	_
 4	ki	ki	SCONJ	_	_	11	mark	_	_
 5	ben	ben	PRON	Pers	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
@@ -3409,7 +3409,7 @@
 4	ṭaġıldılar	ṭaġıl	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 5	ve	ve	CCONJ	_	_	10	cc	_	_
 6	her	her	DET	Det	Definite=Def|PronType=Art	7	det	_	_
-7	kişi	kişi	PRON	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
+7	kişi	kişi	NOUN	_	Case=Nom|Number=Sing|Person=3	10	nsubj	_	_
 8	kendü	kendü	PRON	Reflex	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	nmod:poss	_	_
 9	odasına	oda	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
 10	gitdi	git	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	4	conj	_	_
@@ -16061,7 +16061,7 @@
 # sent_id = kan_8517
 # text = sen ḳandan işitdüñ anlaruñ ḳıṣṣasın ve bunuñ gibi söz ne eksügüñdür didi
 1	sen	sen	PRON	Pers	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
-2	ḳandan	ḳan	PRON	Ques	Case=Abl|Number=Sing|Person=3	3	obl	_	_
+2	ḳandan	ḳan	PRON	Ques	Case=Abl|Number=Sing|Person=3|PronType=Int	3	obl	_	_
 3	işitdüñ	işit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Past|VerbForm=Fin	13	ccomp	_	_
 4	anlaruñ	o	PRON	Demons	Case=Gen|Number=Plur|Person=3|PronType=Dem	5	nmod:poss	_	_
 5	ḳıṣṣasın	ḳıṣsa	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
@@ -16069,7 +16069,7 @@
 7	bunuñ	bu	PRON	Demons	Case=Gen|Number=Sing|Person=3|PronType=Dem	9	nmod	_	_
 8	gibi	gibi	ADP	PCNom	_	7	case	_	_
 9	söz	söz	NOUN	_	Case=Nom|Number=Sing|Person=3	11	nsubj	_	_
-10	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+10	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3|PronType=Int	11	obl	_	_
 11-12	eksügüñdür	_	_	_	_	_	_	_	_
 11	eksügüñ	eksük	ADJ	Adj	_	3	conj	_	_
 12	dür	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	11	cop	_	_
