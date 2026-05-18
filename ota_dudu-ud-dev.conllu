@@ -679,7 +679,7 @@
 9	dur	y	AUX	Zero	Aspect=Perf|Number=Sing|Person=3|Tense=Pres	8	cop	_	_
 10	ve	ve	CCONJ	_	_	13	cc	_	_
 11	her	her	DET	Det	Definite=Def|PronType=Art	12	det	_	_
-12	kişinüñ	kişi	PRON	_	Case=Gen|Number=Sing|Person=3	13	nmod:poss	_	_
+12	kişinüñ	kişi	NOUN	_	Case=Gen|Number=Sing|Person=3	13	nmod:poss	_	_
 13	maḥbūbı	maḥbūb	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	conj	_	_
 14	ve	ve	CCONJ	_	_	15	cc	_	_
 15-16	maṭlūbıdur	_	_	_	_	_	_	_	_
