@@ -6613,7 +6613,7 @@
 # sent_id = bible-1260
 # parallel_id = bible/matt-8-5-6
 # text = andan kefernaḥūma girdigi zemān bir yüzbaşı gelüb aña yalvardı ve dedi ki yā rabb benim oġlanım evde meflūcdur pek derd çeküb yatıyor
-1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	_	3	obl	_	Ref=MATT_8.5
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	3	obl	_	Ref=MATT_8.5
 2	kefernaḥūma	kefernaḥūm	PROPN	Place	Case=Dat|NameType=Geo|Number=Sing|Person=3	3	obl	_	Ref=MATT_8.5
 3	girdigi	gir	VERB	Ptcp	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	Ref=MATT_8.5
 4	zemān	zemān	NOUN	_	Case=Nom|Number=Sing|Person=3	7	obl:tmod	_	Ref=MATT_8.5
@@ -6876,7 +6876,7 @@
 
 # sent_id = kan_1296
 # text = andan ol cemāʿatüñ uluları ve reʾīsleri ayaġ üzerine ḳalḳdılar
-1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	_	9	obl	_	_
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	9	obl	_	_
 2	ol	ol	DET	Demons	Definite=Def|PronType=Art	3	det	_	_
 3	cemāʿatüñ	cemāʿat	NOUN	_	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
 4	uluları	ulu	NOUN	NAdj	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nsubj	_	_
@@ -7714,7 +7714,7 @@
 
 # sent_id = kan_12292
 # text = andan şeybūb ʿantere eyitdi ben varup beşāretile buluşup ʿablenüñ ḫaberin ṣorayın ve ben gitdügümden ṣoñra ḥāl nice oldı göreyin didi
-1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	_	4	obl	_	_
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	4	obl	_	_
 2	şeybūb	şeybūb	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	4	nsubj	_	_
 3	ʿantere	ʿanter	PROPN	Pers	Case=Dat|NameType=Prs|Number=Sing|Person=3	4	obl	_	_
 4	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10435,7 +10435,7 @@
 
 # sent_id = kan_1215
 # text = andan dönüp yine memleketine vardı
-1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	_	2	obl	_	_
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	2	obl	_	_
 2	dönüp	dön	VERB	Conv	Polarity=Pos|VerbForm=Conv	5	advcl	_	_
 3	yine	yine	ADV	_	_	5	advmod	_	_
 4	memleketine	memleket	NOUN	_	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
