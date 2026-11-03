@@ -28,7 +28,7 @@
 8	bir	bir	NUM	ANum	NumType=Card	9	nummod	_	_
 9	ḳızı	ḳız	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	conj	_	_
 10-11	ṭogmışıdı	_	_	_	_	_	_	_	_
-10	ṭogmış	ol	VERB	Ptcp	Aspect=Perf|Polarity=Pos|VerbForm=Part	3	conj	_	_
+10	ṭogmış	ṭog	VERB	Ptcp	Aspect=Perf|Polarity=Pos|VerbForm=Part	3	conj	_	_
 11	ıdı	y	AUX	Zero	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	10	cop	_	_
 
 # sent_id = kan_1140
@@ -802,7 +802,7 @@
 
 # sent_id = kan_12674
 # text = andan cumʿaya eyitdi ḳaçan ki beşāretüñ yüzüni görem ve bunda alup getürem seni daḫı maʿşūḳaña yitürem ve işüñi bitürem didi
-1	andan	andan	ADV	Pers	_	3	obl	_	_
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
 2	cumʿaya	cumʿa	PROPN	Pers	Case=Dat|NameType=Prs|Number=Sing|Person=3	3	obl	_	_
 3	eyitdi	eyit	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin	0	root	_	_
 4	ḳaçan	ḳaçan	ADV	_	_	8	advmod	_	_
@@ -1391,7 +1391,7 @@
 
 # sent_id = kan_5567
 # text = andan dönüp kisrī avı bozup evine geldi ve köşki öñinde bir baḫçesi varıdı ki anda cemīʿ-i yimişlerden hep varıdı
-1	andan	andan	ADV	Pers	_	2	advmod	_	_
+1	andan	o	PRON	Demons	Case=Abl|Number=Sing|Person=3|PronType=Dem	2	obl	_	_
 2	dönüp	dön	VERB	Conv	Polarity=Pos|VerbForm=Conv	7	advcl	_	_
 3	kisrī	kisrī	PROPN	Pers	Case=Nom|NameType=Prs|Number=Sing|Person=3	5	nsubj	_	_
 4	avı	av	NOUN	_	Case=Acc|Number=Sing|Person=3	5	obj	_	_
